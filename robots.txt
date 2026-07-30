@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shokkergroup.github.io/hlrn/sitemap.xml
