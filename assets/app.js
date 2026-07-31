@@ -1479,6 +1479,14 @@
       },
       {
         id: "04",
+        label: "RACE-STORY DESK",
+        passed: records.raceStoryQualityAuditPassed && records.raceStoryQualityErrorCount === 0 && records.raceStoryCount === records.officialCount,
+        headline: records.raceStoryCount + " LONG-FORM RACE STORIES",
+        detail: Number(records.raceStoryMainWordCount || 0).toLocaleString() + " main-story words · " + records.raceStoryMinimumWordCount + "–" + records.raceStoryMaximumWordCount + " words and " + records.raceStoryMinimumParagraphCount + "–" + records.raceStoryMaximumParagraphCount + " paragraphs per race · " + records.raceStoryReferencePatternCount + "-story professional pattern library · " + records.raceStoryDuplicateParagraphCount + " duplicated paragraphs",
+        route: "#/central",
+      },
+      {
+        id: "05",
         label: "DRIVER DOSSIERS",
         passed: records.driverDossierAuditPassed && records.driverDossierAuditErrorCount === 0,
         headline: records.driverCount + " REVIEWED FILES",
@@ -1486,7 +1494,7 @@
         route: "#/drivers",
       },
       {
-        id: "05",
+        id: "06",
         label: "TOP 25 AWARDS",
         passed: records.awardsQualityAuditPassed && records.awardsQualityAuditErrorCount === 0,
         headline: DATA.rankings.order.length + " EXPLAINABLE BOARDS",
@@ -1494,7 +1502,7 @@
         route: "#/rankings",
       },
       {
-        id: "06",
+        id: "07",
         label: "PUBLIC LANGUAGE",
         passed: records.publicLanguageAuditPassed && records.publicLanguageAuditErrorCount === 0,
         headline: Number(records.publicLanguageAuditedFieldCount || 0).toLocaleString() + " COPY FIELDS",
@@ -1502,7 +1510,7 @@
         route: "#/methodology",
       },
       {
-        id: "07",
+        id: "08",
         label: "ROUTE GRAPH",
         passed: records.routeGraphAuditPassed && records.routeGraphAuditErrorCount === 0 && records.routeGraphRouteCount >= 1000,
         headline: Number(records.routeGraphRouteCount || 0).toLocaleString() + " REACHABLE ROUTES",
@@ -1511,7 +1519,7 @@
       },
     ];
     var passed = gates.filter(function (gate) { return gate.passed; }).length;
-    app.innerHTML = '<div class="audit-board-page">' + pageHead("TRUST AUDIT BOARD / RELEASE EVIDENCE", "EIGHT GATES.<br><em>ZERO HAND WAVES.</em>", "The public compiler carries independent gates for the channel shelf, results, race playback, reporting, driver dossiers, rankings, public language, and the complete internal route graph.", [
+    app.innerHTML = '<div class="audit-board-page">' + pageHead("TRUST AUDIT BOARD / RELEASE EVIDENCE", "NINE GATES.<br><em>ZERO HAND WAVES.</em>", "The public compiler carries independent gates for the channel shelf, results, race playback, long-form reporting, race-story craft, driver dossiers, rankings, public language, and the complete internal route graph.", [
       [passed + " / " + gates.length, "GATES PASSING"], [records.resultReceiptWindowCount, "RESULT WINDOWS"], [Number(records.awardPlayableReceiptCount || 0).toLocaleString(), "AWARD RECEIPTS"],
     ]) + '<div class="wrap"><section class="audit-gate-grid">' + gates.map(function (gate) {
       return '<article class="' + (gate.passed ? "pass" : "fail") + '"><header><b>' + gate.id + '</b><span>' + esc(gate.label) + '</span><strong>' + (gate.passed ? "PASS" : "REVIEW") + '</strong></header><h2>' + esc(gate.headline) + '</h2><p>' + esc(gate.detail) + '</p><a href="' + gate.route + '">INSPECT THE PUBLIC EVIDENCE →</a></article>';
@@ -1535,7 +1543,7 @@
     ]) + '<div class="wrap"><section class="method-grid"><article><span>01 / CANON</span><h2>WHAT COUNTS AS OFFICIAL?</h2><p>' + esc(policy.officialRule || "") + "</p></article><article><span>02 / BONUS</span><h2>WHAT IS HIGHLINE LIVE?</h2><p>" + esc(policy.bonusRule || "") + "</p></article><article><span>03 / FRAGMENTS</span><h2>WHY KEEP PARTIAL TAPE?</h2><p>" + esc(policy.fragmentRule || "") + "</p></article><article><span>04 / RESULTS</span><h2>WHY ARE CELLS OPEN?</h2><p>" + esc(policy.resultRule || "") + "</p></article></section>" +
       '<section class="evidence-ladder"><span>EVIDENCE LADDER</span><h2>FOUR STATES THAT NEVER BLUR TOGETHER</h2><div><article><b>1</b><h3>RESEARCH CANDIDATE</h3><p>A machine-found timestamp kept backstage. It never becomes a public highlight by proximity alone.</p></article><article><b>2</b><h3>AUTHORED RECEIPT</h3><p>A human-bounded moment or claim tied to the exact source window.</p></article><article><b>3</b><h3>EDITOR REVIEWED</h3><p>Context, identity, title, and relationship checked against the tape.</p></article><article><b>4</b><h3>CREATOR CERTIFIED</h3><p>HLRN or an authorized owner confirms the record.</p></article></div></section>' +
       '<section class="heat-method"><span>RESEARCH PIPELINE / PUBLIC FIREWALL</span><h2>' + DATA.records.quarantinedCandidateCount + ' CANDIDATES BACKSTAGE. ' + DATA.moments.length + ' REVIEWED CUTS PUBLIC.</h2><p>Tape Heat helps prioritize research. Highline Central and the highlight library publish only authored, source-bounded receipts. The score never writes a headline, assigns a result, or populates a driver signature reel.</p><div>' + ["finish", "battle", "restart", "strategy", "disruption", "booth", "evidence"].map(function (item) { return '<span>' + item.toUpperCase() + "</span>"; }).join("") + "</div></section>" +
-      '<section class="method-addenda"><article><span>PRIMARY BROADCAST CHAPTERS</span><h2>Navigation is not adjudication.</h2><p>Each official race carries 15–18 jumps inside the full HLRN broadcast. Green marks an accepted result; cyan marks a chapter individually corrected against primary tape; blue has local primary captions in its playback window and, whenever it tags a driver, re-resolves at least one identity through the alias registry in that same window. Blue still makes no result claim.</p></article><article><span>CENTRAL SOURCE RAILS</span><h2>Relevance outranks proximity.</h2><p>Each four-section report receives a distinct primary-race window. An explicit section category is matched first; driver and meaningful-language overlap break ties; the fourth section closes on a result-supported chapter. All 83 story receipts have local captions: ' + DATA.records.editorialCaptionAlignedBeatCount + ' are alias-aligned and ' + DATA.records.editorialVisualReviewBeatCount + ' remain explicitly visual review.</p></article><article><span>DRIVER EVIDENCE TIERS</span><h2>A dossier’s shape follows its receipts.</h2><p>Championship, verified-result, reviewed-story, official-tape, and Highline-Live-only files are deliberately different. Every dossier exposes exact playable name-call windows that are rechecked against the timestamped transcript; those identity-discovery receipts and broader source appearances never become starts, finishes, or championships.</p></article><article><span>TOP 25 AWARDS</span><h2>Every point has a visible owner.</h2><p>Nine boards publish their eligibility rule, component weights, normalized raw values, and source receipts. Confidence and reputation add zero hidden points. A board may stop short of 25 when the archive cannot support 25 eligible names.</p></article><article><span>VISUAL IDENTITY</span><h2>No nearby car becomes a portrait.</h2><p>' + DATA.records.driverImageCount + ' published frames remain split into ' + DATA.records.driverGraphicConfirmedImageCount + ' name/scoring-graphic matches, ' + DATA.records.driverCommentaryConfirmedImageCount + ' live-call matches, and ' + DATA.records.driverContextImageCount + ' source-context frames. A dossier without a safe image says so; rejected adjacent-camera captures stay backstage.</p></article></section>' +
+      '<section class="method-addenda"><article><span>PRIMARY BROADCAST CHAPTERS</span><h2>Navigation is not adjudication.</h2><p>Each official race carries 15–18 jumps inside the full HLRN broadcast. Green marks an accepted result; cyan marks a chapter individually corrected against primary tape; blue has local primary captions in its playback window and, whenever it tags a driver, re-resolves at least one identity through the alias registry in that same window. Blue still makes no result claim.</p></article><article><span>CENTRAL SOURCE RAILS</span><h2>Relevance outranks proximity.</h2><p>Each four-section report receives a distinct primary-race window. An explicit section category is matched first; driver and meaningful-language overlap break ties; the fourth section closes on a result-supported chapter. All 83 story receipts have local captions: ' + DATA.records.editorialCaptionAlignedBeatCount + ' are alias-aligned and ' + DATA.records.editorialVisualReviewBeatCount + ' remain explicitly visual review.</p></article><article><span>RACE-STORY STANDARD</span><h2>The result comes early. The finish still has to be earned.</h2><p>All ' + DATA.records.raceStoryCount + ' Central stories use an 800–1,200-word, 10–18-paragraph source-bounded contract derived from a metadata-only library of ' + DATA.records.raceStoryReferencePatternCount + ' professional motorsports reports. Every story carries its supported podium, a governing tension, contender arcs, a precise deciding sequence, and an explicit limit where the record stops.</p></article><article><span>DRIVER EVIDENCE TIERS</span><h2>A dossier’s shape follows its receipts.</h2><p>Championship, verified-result, reviewed-story, official-tape, and Highline-Live-only files are deliberately different. Every dossier exposes exact playable name-call windows that are rechecked against the timestamped transcript; those identity-discovery receipts and broader source appearances never become starts, finishes, or championships.</p></article><article><span>TOP 25 AWARDS</span><h2>Every point has a visible owner.</h2><p>Nine boards publish their eligibility rule, component weights, normalized raw values, and source receipts. Confidence and reputation add zero hidden points. A board may stop short of 25 when the archive cannot support 25 eligible names.</p></article><article><span>VISUAL IDENTITY</span><h2>No nearby car becomes a portrait.</h2><p>' + DATA.records.driverImageCount + ' published frames remain split into ' + DATA.records.driverGraphicConfirmedImageCount + ' name/scoring-graphic matches, ' + DATA.records.driverCommentaryConfirmedImageCount + ' live-call matches, and ' + DATA.records.driverContextImageCount + ' source-context frames. A dossier without a safe image says so; rejected adjacent-camera captures stay backstage.</p></article></section>' +
       '<section class="method-unknowns"><div><span>KNOWN NOW</span><ul><li>Source identities and dates</li><li>Original playback URLs</li><li>Official versus bonus lane</li><li>Timed transcript signals</li><li>All 20 official winners</li><li>Season 1 champion receipt</li><li>Channel-authored companion episodes</li></ul></div><div><span>WAITING FOR OWNER RECORDS</span><ul><li>Complete finishing orders</li><li>Official starts and points</li><li>Full standings tables</li><li>Official incident counts</li><li>Complete number and team history</li></ul></div></section></div></div>';
   }
 
@@ -2027,7 +2035,7 @@
       ["HIGH LINE RADAR", "Race story signals plotted across exact source time.", "#/radar", DATA.moments.length + " CONTACTS"],
       ["HIGHLINE FREQUENCY", "Recurring network language with playable exact receipts.", "#/frequency", DATA.phrases.length + " FREQUENCIES"],
       ["RECORD BOARD", "Archive totals, runtime, views, tracks, and source records.", "#/records", DATA.records.hours + " HOURS"],
-      ["TRUST AUDIT BOARD", "Seven live release gates for the source shelf, results, race cuts, Central, drivers, awards, and public language.", "#/audit-board", "7 GATES"],
+      ["TRUST AUDIT BOARD", "Nine live release gates for sources, results, race cuts, Central, story craft, drivers, awards, language, and every internal route.", "#/audit-board", "9 GATES"],
       ["EVIDENCE LEDGER", "Winner and champion claims with state, source, limit, and receipt.", "#/evidence-ledger", "OPEN CLAIMS"],
       ["OPEN RECORDS", "Image, track, podium, standings, and metadata gaps made visible.", "#/unknowns", "NO GUESSING"],
       ["CORRECTIONS DESK", "Build an append-only source-bounded correction packet.", "#/corrections", "TRUST TOOL"],
