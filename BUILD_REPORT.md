@@ -88,7 +88,7 @@ the main HLRN control room. Every official race has:
 - a front-page cover line, headline, and deck;
 - a three-paragraph lead;
 - a source-attributed cover frame;
-- a nine-paragraph newspaper-style main story;
+- an 11–12-paragraph, 803–980-word newspaper-style main story;
 - a four-section source-anchored race file;
 - a three-act opening/pressure/closing reconstruction;
 - a complete podium narrative and claim limitations;
@@ -101,8 +101,10 @@ Each of the four source-file sections now carries a two-lane source rail:
 1. an exact primary-broadcast race window; and
 2. a playable reviewed story receipt.
 
-All 20 editions pass a separate editorial gate. The public publication contains
-24,183 words, with 1,085 words in the smallest issue.
+All 20 editions pass both the source-contract editorial gate and a separate
+race-journalism gate derived from a 180-story professional pattern library.
+The 20 main stories contain 16,874 words; the complete Central publication
+contains 28,996 words, with 1,357 words in the smallest issue.
 
 ## Highline Live
 
@@ -145,18 +147,19 @@ values, category maximums, weighted points, and playable source receipts.
 
 ## Public trust and language
 
-The Trust Audit Board exposes eight passing release gates:
+The Trust Audit Board exposes nine passing release gates:
 
 1. channel snapshot;
 2. result evidence;
 3. primary race cuts;
 4. Highline Central;
-5. driver dossiers;
-6. Top 25 awards;
-7. public language.
-8. the complete internal route graph.
+5. race-story journalism;
+6. driver dossiers;
+7. Top 25 awards;
+8. public language;
+9. the complete internal route graph.
 
-The public-language gate scans 4,156 authored fields / 89,428 words. It rejects
+The public-language gate scans 4,391 authored fields / 106,606 words. It rejects
 the original repeated Trevor white-flag headline template,
 research-state language, unresolved program values, malformed encoding,
 accidental repeated words, and duplicated authored blocks.
@@ -176,7 +179,7 @@ returns exact in-wiki race cuts instead of only caption snippets.
 - VRL reference route families: 36.
 - Explore tools: 26.
 - Desktop/mobile route and workflow scenarios: 66.
-- Reachable internal route graph: 1,064 routes across 40 families.
+- Reachable internal route graph: 1,065 routes across 40 families.
 - All-driver routes: 226/226.
 - All-Central routes: 20/20.
 - All-Highline-Live routes: 29/29.
@@ -195,8 +198,9 @@ returns exact in-wiki race cuts instead of only caption snippets.
 - Official-race companion subset: 20/20.
 - Public asset audit: 11 core assets, 123 decoded images, 77 transcript chunks.
 - Repeated archive-card imagery uses deferred loading and asynchronous decoding.
-- Chapter, editorial, driver, result, awards, language, source, and asset audit
-  errors: zero.
+- Chapter, chapter-player, editorial, race-story, cross-contract, driver,
+  result, awards, language, source, asset, route-graph, and responsive-browser
+  audit errors: zero.
 - Cross-source broadcast chapters: zero.
 - Browser errors and overflow failures: zero.
 - Unnamed buttons and form controls across audited routes: zero.

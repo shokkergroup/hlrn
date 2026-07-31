@@ -27,11 +27,14 @@ The public, source-linked living archive of the
 - Reviewed opening greens and live-race closes for all 20 official races
 - 83 editor-reviewed Central / `The Show` receipts with 83 unique titles
 - 20 complete recovered podiums / 60 accepted position cells
-- 20 Highline Central editions / 24,183 public editorial words
+- 20 Highline Central editions / 28,996 public editorial words
+- 20 source-bounded main race stories / 16,874 words, with 803–980 words and
+  11–12 paragraphs in every story
 - 9 explainable Top 25 boards / all 1,585 board receipts publicly exposed and playable
 - 424 machine-surfaced research candidates quarantined from public editorial
-- 7 passing public trust gates: channel snapshot, results, primary race cuts,
-  Central, drivers, awards, and public language
+- 9 passing public trust gates: channel snapshot, results, primary race cuts,
+  Central source integrity, race-story journalism, drivers, awards, public
+  language, and the complete internal route graph
 
 ## Core experience
 
@@ -53,9 +56,10 @@ restarts, stages, incidents, strategy, battles, booth calls, finishes, or
 results without removing the full race reel.
 
 Highline Central is a real newspaper layer, not a control-room index. Every
-official race receives a cover, three-paragraph lead, a nine-paragraph
-newspaper-style main story, a four-pillar source file, three-act reconstruction,
-complete podium narrative, notebook, limitations, and an After Hours column.
+official race receives a cover, three-paragraph lead, an 803–980-word,
+11–12-paragraph newspaper-style main story, a four-pillar source file,
+three-act reconstruction, complete podium narrative, notebook, limitations,
+and an After Hours column.
 The twenty main stories were rewritten against the complete primary-broadcast
 chapter boards after a 180-story race-journalism research pass. Every source-file
 pillar exposes two rails: an exact window in the primary race and its related
@@ -113,14 +117,14 @@ The public compiler currently passes:
 - all-driver dossier, result-receipt, name-provenance, transcript-reproduction,
   and unique-image-hash audit;
 - all-board Top 25 formula and playable-receipt audit;
-- public-language audit over 4,336 authored fields / 101,663 words;
+- public-language audit over 4,391 authored fields / 106,606 words;
 - public-asset audit over 11 core assets, 123 decoded images, and 77 transcript
   chunks;
 - 66 desktop/mobile route and workflow scenarios, plus every driver, Central,
   Highline Live, and archive-fragment detail route; every rendered form
   control must expose an accessible name;
-- a recursive internal-link graph of 1,064 reachable routes across all 40
-  route families, including 706 race and exact-time deep links.
+- a recursive internal-link graph of 1,065 reachable routes across all 40
+  route families, including 707 race and exact-time deep links.
 
 ## Local preview
 
