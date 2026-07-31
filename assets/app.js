@@ -1252,7 +1252,11 @@
   window.__driverTier = function (value) { state.driverTier = value; driversPage(); };
 
   function driverPage(id) {
-    var driver = driverMap[id];
+    var driver = driverMap[id] || DATA.drivers.find(function (candidate) {
+      return (candidate.aliases || []).some(function (alias) {
+        return trackSlug(alias) === id;
+      });
+    });
     if (!driver) return driversPage();
     var stats = driver.stats;
     var tier = driver.evidenceTier || { id: "unclassified", label: "OPEN FILE", note: "Evidence tier pending." };
