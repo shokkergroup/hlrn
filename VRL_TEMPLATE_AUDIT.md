@@ -96,12 +96,12 @@ The image pass uses frames exported from HLRN's own primary and companion
 programs:
 
 - 20 Central cover frames;
-- 200 currently published driver-frame mappings across 225 dossiers;
+- 202 currently published driver-frame mappings across 225 dossiers;
 - source ID, timestamp, caption, and confidence label retained for each map;
-- 146 name/scoring-graphic matches, 3 live-call matches, and 51 explicitly
+- 148 name/scoring-graphic matches, 3 live-call matches, and 51 explicitly
   limited source-context frames;
-- 200/200 unique frame hashes at 1280×720 or better;
-- 25 monogram fallbacks when a safe mapping has not been made.
+- 202/202 unique frame hashes at 1280×720 or better;
+- 23 monogram fallbacks when a safe mapping has not been made.
 
 Every one of the 225 dossiers also publishes one or two exact name-call
 windows. The 441 receipts are re-opened against the timestamped transcript by
@@ -183,7 +183,7 @@ elevated win, and Season 2 Iowa runner-up.
 - **Highline Live shelves:** seven source-declared filters compartmentalize
   partner nights, network specials, practice, GT3, memorials, and the general
   bonus universe.
-- **Public language gate:** 4,378 authored fields / 109,743 words are scanned for
+- **Public language gate:** 4,378 authored fields / 109,777 words are scanned for
   rejected generic phrases, duplicated blocks, malformed encoding, and leaked
   research state.
 - **Channel snapshot gate:** the saved 52-file source universe must match the
@@ -219,7 +219,7 @@ channel-specific toys.
 | Added HLRN surface | Purpose |
 | --- | --- |
 | Results Room + Winner’s Garage | All 20 official winner receipts in one explainable ledger |
-| Visual Garage + Photo Desk | 200 unique driver frames and 20 Central frames with source playback |
+| Visual Garage + Photo Desk | 202 unique driver frames and 20 Central frames with source playback |
 | Driver Compare | Six visible archive/result measures with no hidden ability verdict |
 | Battle Lines | Driver-pair co-occurrence derived only from shared reviewed beats |
 | Track Atlas | Sources, results, moments, and drivers organized by registry track |
@@ -251,7 +251,7 @@ and public-origin QA. The executable comparison lives in
 - 83 public cuts have 83 unique titles.
 - Zero machine-surfaced cuts cross the public contract.
 - 424 machine candidates remain quarantined.
-- 200 of 225 driver dossiers have mapped HLRN source frames; the other 25 keep
+- 202 of 225 driver dossiers have mapped HLRN source frames; the other 23 keep
   honest monogram fallbacks.
 - 26 deep Explore tools are exposed.
 - 66 desktop/mobile route and workflow scenarios pass, plus every one of the
