@@ -15,11 +15,11 @@ The public, source-linked living archive of the
 - 20/20 HLRN-authored official-race companions mapped and independently
   rechecked for current reachability
 - 226 normalized, evidence-tiered driver dossiers
-- 44,172 public driver-dossier words, with a 179-word minimum file
-- 441 exact, transcript-reproduced name-call receipts across all 226 dossiers
-- 141 unique 1280×720 source frames across driver dossiers; 85 honest
+- 44,085 public driver-dossier words, with a 179-word minimum file
+- 442 exact, transcript-reproduced name-call receipts across all 226 dossiers
+- 163 unique 1280×720 source frames across driver dossiers; 63 honest
   monogram fallbacks
-- Visual evidence split into 86 name/scoring-graphic matches, 3 live-call
+- Visual evidence split into 108 name/scoring-graphic matches, 3 live-call
   matches, and 52 explicitly limited source-context frames
 - 351 full-broadcast race chapters, with 15–18 distinct cuts per official race
 - 117 individually tape-reviewed navigation chapters and 209 additional
@@ -72,7 +72,7 @@ has a three-paragraph career read, five known-fact cells, open records, result
 receipts, primary-tape reel, Central clippings, Top 25 resume, track
 fingerprint, and source index. Each file also publishes its earliest and, when
 available, latest indexed name call as an exact playable caption receipt; all
-441 receipts reproduce the underlying transcript at the cited second. The
+442 receipts reproduce the underlying transcript at the cited second. The
 source footprint now includes one-call grid entrants so a dossier never says
 “0 official files” beside its own official playable receipt; those appearances
 remain explicitly barred from becoming inferred starts or results. The
@@ -117,13 +117,13 @@ The public compiler currently passes:
 - all-driver dossier, result-receipt, name-provenance, transcript-reproduction,
   and unique-image-hash audit;
 - all-board Top 25 formula and playable-receipt audit;
-- public-language audit over 4,391 authored fields / 108,973 words;
-- public-asset audit over 11 core assets, 164 decoded images, and 77 transcript
+- public-language audit over 4,391 authored fields / 109,319 words;
+- public-asset audit over 11 core assets, 186 decoded images, and 77 transcript
   chunks;
 - 66 desktop/mobile route and workflow scenarios, plus every driver, Central,
   Highline Live, and archive-fragment detail route; every rendered form
   control must expose an accessible name;
-- a recursive internal-link graph of 1,068 reachable routes across all 40
+- a recursive internal-link graph of 1,069 reachable routes across all 40
   route families, including 709 race and exact-time deep links.
 
 ## Local preview
