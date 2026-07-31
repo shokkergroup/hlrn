@@ -1480,9 +1480,9 @@
       {
         id: "04",
         label: "RACE-STORY DESK",
-        passed: records.raceStoryQualityAuditPassed && records.raceStoryQualityErrorCount === 0 && records.raceStoryCount === records.officialCount,
+        passed: records.raceStoryQualityAuditPassed && records.raceStoryQualityErrorCount === 0 && records.raceStoryEvidenceAuditPassed && records.raceStoryEvidenceErrorCount === 0 && records.raceStoryUnsupportedNamedDriverReferenceCount === 0 && records.raceStoryCount === records.officialCount,
         headline: records.raceStoryCount + " LONG-FORM RACE STORIES",
-        detail: Number(records.raceStoryMainWordCount || 0).toLocaleString() + " main-story words · " + records.raceStoryMinimumWordCount + "–" + records.raceStoryMaximumWordCount + " words and " + records.raceStoryMinimumParagraphCount + "–" + records.raceStoryMaximumParagraphCount + " paragraphs per race · " + records.raceStoryReferencePatternCount + "-story professional pattern library · " + records.raceStoryDuplicateParagraphCount + " duplicated paragraphs",
+        detail: Number(records.raceStoryMainWordCount || 0).toLocaleString() + " main-story words · " + records.raceStoryMinimumWordCount + "–" + records.raceStoryMaximumWordCount + " words and " + records.raceStoryMinimumParagraphCount + "–" + records.raceStoryMaximumParagraphCount + " paragraphs per race · " + records.raceStoryReferencePatternCount + "-story professional pattern library · " + records.raceStorySupportedNamedDriverReferenceCount + " named-driver references / " + records.raceStoryEvidenceLinkCount + " same-race evidence links · " + records.raceStoryUnsupportedNamedDriverReferenceCount + " cross-race leaks",
         route: "#/central",
       },
       {
