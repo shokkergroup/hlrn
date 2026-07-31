@@ -15,11 +15,11 @@ The public, source-linked living archive of the
 - 20/20 HLRN-authored official-race companions mapped and independently
   rechecked for current reachability
 - 226 normalized, evidence-tiered driver dossiers
-- 44,239 public driver-dossier words, with a 179-word minimum file
+- 44,269 public driver-dossier words, with a 179-word minimum file
 - 439 exact, transcript-reproduced name-call receipts across all 226 dossiers
-- 115 unique 1280×720 source frames across driver dossiers; 111 honest
+- 119 unique 1280×720 source frames across driver dossiers; 107 honest
   monogram fallbacks
-- Visual evidence split into 60 name/scoring-graphic matches, 3 live-call
+- Visual evidence split into 64 name/scoring-graphic matches, 3 live-call
   matches, and 52 explicitly limited source-context frames
 - 351 full-broadcast race chapters, with 15–18 distinct cuts per official race
 - 117 individually tape-reviewed navigation chapters and 209 additional
@@ -79,7 +79,7 @@ remain explicitly barred from becoming inferred starts or results. The
 Visual Garage filters published frames by graphic-confirmed,
 live-call-matched, and source-context evidence.
 
-Open Records separately lists the 29 transcript-normalized spellings that still
+Open Records separately lists the 22 transcript-normalized spellings that still
 need an owner roster, lower third, or self-identification before the identity
 can be treated as closed canon.
 
@@ -117,8 +117,8 @@ The public compiler currently passes:
 - all-driver dossier, result-receipt, name-provenance, transcript-reproduction,
   and unique-image-hash audit;
 - all-board Top 25 formula and playable-receipt audit;
-- public-language audit over 4,391 authored fields / 106,982 words;
-- public-asset audit over 11 core assets, 138 decoded images, and 77 transcript
+- public-language audit over 4,391 authored fields / 107,528 words;
+- public-asset audit over 11 core assets, 142 decoded images, and 77 transcript
   chunks;
 - 66 desktop/mobile route and workflow scenarios, plus every driver, Central,
   Highline Live, and archive-fragment detail route; every rendered form
