@@ -14,15 +14,15 @@ The public, source-linked living archive of the
 - 3 fragments retained in the Source Ledger
 - 20/20 HLRN-authored official-race companions mapped and independently
   rechecked for current reachability
-- 226 normalized, evidence-tiered driver dossiers
-- 44,045 public driver-dossier words, with a 179-word minimum file
-- 443 exact, transcript-reproduced name-call receipts across all 226 dossiers
-- 184 unique 1280×720 source frames across driver dossiers; 42 honest
+- 225 normalized, evidence-tiered driver dossiers
+- 43,837 public driver-dossier words, with a 179-word minimum file
+- 441 exact, transcript-reproduced name-call receipts across all 225 dossiers
+- 190 unique 1280×720 source frames across driver dossiers; 35 honest
   monogram fallbacks
-- Visual evidence split into 129 name/scoring-graphic matches, 3 live-call
-  matches, and 52 explicitly limited source-context frames
+- Visual evidence split into 136 name/scoring-graphic matches, 3 live-call
+  matches, and 51 explicitly limited source-context frames
 - 351 full-broadcast race chapters, with 15–18 distinct cuts per official race
-- 117 individually tape-reviewed navigation chapters and 209 additional
+- 118 individually tape-reviewed navigation chapters and 208 additional
   navigation cues aligned to local primary-broadcast caption windows
 - Reviewed opening greens and live-race closes for all 20 official races
 - 83 editor-reviewed Central / `The Show` receipts with 83 unique titles
@@ -72,7 +72,7 @@ has a three-paragraph career read, five known-fact cells, open records, result
 receipts, primary-tape reel, Central clippings, Top 25 resume, track
 fingerprint, and source index. Each file also publishes its earliest and, when
 available, latest indexed name call as an exact playable caption receipt; all
-443 receipts reproduce the underlying transcript at the cited second. The
+441 receipts reproduce the underlying transcript at the cited second. The
 source footprint now includes one-call grid entrants so a dossier never says
 “0 official files” beside its own official playable receipt; those appearances
 remain explicitly barred from becoming inferred starts or results. The
@@ -117,13 +117,13 @@ The public compiler currently passes:
 - all-driver dossier, result-receipt, name-provenance, transcript-reproduction,
   and unique-image-hash audit;
 - all-board Top 25 formula and playable-receipt audit;
-- public-language audit over 4,391 authored fields / 109,637 words;
-- public-asset audit over 11 core assets, 207 decoded images, and 77 transcript
+- public-language audit over 4,378 authored fields / 109,475 words;
+- public-asset audit over 11 core assets, 213 decoded images, and 77 transcript
   chunks;
 - 66 desktop/mobile route and workflow scenarios, plus every driver, Central,
   Highline Live, and archive-fragment detail route; every rendered form
   control must expose an accessible name;
-- a recursive internal-link graph of 1,071 reachable routes across all 40
+- a recursive internal-link graph of 1,068 reachable routes across all 40
   route families, including 713 race and exact-time deep links.
 
 ## Local preview
