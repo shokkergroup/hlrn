@@ -1,0 +1,2 @@
+driver_id,display_name,car_number,team_id,status,profile_image_url,car_image_url,bio,social_url,sponsor_ids,authority,verified_at
+,Example Driver,00,example-team,active,,,,,,owner sheet,

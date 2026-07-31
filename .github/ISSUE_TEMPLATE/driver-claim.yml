@@ -1,0 +1,35 @@
+name: Driver profile claim
+description: Propose owner-reviewed profile, car, team, number, bio, or social information.
+title: "HLRN driver claim: "
+labels: ["driver-claim"]
+body:
+  - type: input
+    id: driver
+    attributes:
+      label: Driver name and current wiki URL
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact handle
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Proposed number, team, biography, socials, and sponsors
+    validations:
+      required: true
+  - type: textarea
+    id: images
+    attributes:
+      label: Authorized image links and rights statement
+      description: Do not upload material you are not authorized to provide.
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Submission authority
+      options:
+        - label: I am authorized to submit these details for review.
+          required: true

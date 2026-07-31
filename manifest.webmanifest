@@ -2,7 +2,9 @@
   "name": "HLRN Living Wiki",
   "short_name": "HLRN Wiki",
   "description": "The source-linked living archive of High Line Racing Network.",
+  "id": "./",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#020712",
   "theme_color": "#06131f",
@@ -12,6 +14,28 @@
       "sizes": "800x800",
       "type": "image/jpeg",
       "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "League HQ",
+      "short_name": "HQ",
+      "url": "./#/hq"
+    },
+    {
+      "name": "Watch a race",
+      "short_name": "Watch",
+      "url": "./#/watch"
+    },
+    {
+      "name": "Highline Central",
+      "short_name": "Central",
+      "url": "./#/central"
+    },
+    {
+      "name": "Owner Studio",
+      "short_name": "Studio",
+      "url": "./#/studio"
     }
   ]
 }

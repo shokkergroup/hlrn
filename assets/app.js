@@ -325,6 +325,7 @@
 
   function renderNav() {
     var links = [
+      ["#/hq", "HQ"],
       ["#/watch", "Watch"],
       ["#/ask", "Ask"],
       ["#/highlights", "Highlights"],
@@ -335,6 +336,10 @@
     ];
     var explore = [
       ["#/explore", "Explore deck"],
+      ["#/owner-preview", "Owner tour"],
+      ["#/teams", "Team paddock"],
+      ["#/sponsors", "Sponsor proof"],
+      ["#/impact", "Impact board"],
       ["#/highline-live", "Highline Live"],
       ["#/results", "Results Room"],
       ["#/garage", "Visual Garage"],
@@ -355,6 +360,9 @@
       ["#/evidence-ledger", "Evidence Ledger"],
       ["#/unknowns", "Open Records"],
       ["#/corrections", "Corrections Desk"],
+      ["#/claim", "Driver claims"],
+      ["#/owner", "Owner access"],
+      ["#/legal", "Trust & ownership"],
       ["#/sources", "Source Ledger"],
       ["#/methodology", "Methodology"],
     ];
@@ -371,8 +379,8 @@
       '<nav id="primaryNav" aria-label="Primary">' + links.map(navLink).join("") +
       '<details class="explore-menu"><summary class="' + (explore.some(function (item) { return isOn(item[0]); }) ? "on" : "") + '">Explore</summary><div>' +
       explore.map(navLink).join("") + "</div></details></nav>" +
-      '<div class="nav-controls"><button class="canon-switch ' + esc(state.canon) + '" onclick="__toggleCanon()" title="Switch between official HLRN and the whole network archive"><i></i><span>' +
-      (state.canon === "official" ? "OFFICIAL" : "ALL TAPE") + '</span></button><a class="replay-chip" href="#/replay" aria-label="Open replay builder"><b>' +
+      '<div class="nav-controls"><button class="canon-switch ' + esc(state.canon) + '" onclick="__toggleCanon()" aria-label="' + (state.canon === "official" ? "Showing the official-race lane; switch to all tape" : "Showing all tape; switch to the official-race lane") + '" title="Switch between official HLRN races and the whole network archive"><i></i><span>' +
+      (state.canon === "official" ? "OFFICIAL RACES" : "ALL TAPE") + '</span></button><a class="replay-chip" href="#/replay" aria-label="Open replay builder"><b>' +
       state.replayIds.length + '</b><span>REPLAY</span></a><button class="nav-search" onclick="location.hash=\'#/ask\'" aria-label="Search the archive">⌕</button></div></div>' +
       '<div class="signal-rail"><i></i><span>HIGH LINE RACING NETWORK</span><b></b></div>';
   }
@@ -380,8 +388,8 @@
   function renderFooter() {
     footer.innerHTML = '<div class="wrap footer-grid"><div class="footer-brand"><img src="assets/media/hlrn-avatar.jpg" alt="High Line Racing Network"><div><b>HLRN LIVING WIKI</b><p>A SHOKKER LORE creator memory world.</p></div></div>' +
       '<div><b>THE SOURCE PROMISE</b><p>Every playable receipt returns to the original High Line Racing Network upload. The wiki copies no race video.</p></div>' +
-      '<div><b>THE RESULT PROMISE</b><p>Unknown stays unknown. Official sheets can be added later without breaking race or driver routes.</p></div>' +
-      '<div class="footer-links"><a href="#/pulse">What’s new</a><a href="#/studio">Lore Studio</a><a href="#/corrections">Corrections</a><a href="#/methodology">Methodology</a><a href="#/sources">Source ledger</a><a href="' + esc(DATA.meta.channelUrl) + '" target="_blank" rel="noopener">YouTube channel ↗</a></div></div>' +
+      '<div><b>THE AUTHORITY PROMISE</b><p>' + esc(window.HLRN_OWNER_UI ? window.HLRN_OWNER_UI.certificationState() : "PUBLIC-SOURCE PREVIEW") + '. Unknown stays unknown until reviewed owner records are supplied.</p></div>' +
+      '<div class="footer-links"><a href="#/hq">League HQ</a><a href="#/owner-preview">Owner tour</a><a href="#/studio">Owner Studio</a><a href="#/sponsors">Sponsor proof</a><a href="#/corrections">Corrections</a><a href="#/legal">Trust & ownership</a><a href="#/sources">Source ledger</a><a href="' + esc(DATA.meta.channelUrl) + '" target="_blank" rel="noopener">YouTube channel ↗</a></div></div>' +
       '<div class="footer-bottom"><span>SNAPSHOT ' + esc(DATA.meta.snapshotDate || "") + '</span><span>PRESS H ANYWHERE TO OPEN THE HIGH LINE · ' + state.replayIds.length + ' CUTS IN YOUR REPLAY</span></div>';
   }
 
@@ -498,6 +506,7 @@
   window.__shareMoment = function (id) {
     var moment = momentMap[id];
     if (!moment) return;
+    if (window.HLRN_ANALYTICS) window.HLRN_ANALYTICS.track("moment_share", { momentId: id, sourceId: moment.sourceId, timestamp: moment.t });
     var url = location.origin + location.pathname + "#/race/" + (moment.raceId || moment.sourceId) + "/t/" + Math.floor(moment.t);
     var text = moment.title + " — " + moment.summary + " " + url;
     if (navigator.share) {
@@ -670,6 +679,7 @@
     var stop = Math.max(start + 1, Number(end) || 0);
     var chapterIndex = Number.isFinite(Number(index)) ? Number(index) : -1;
     var label = title || "Full race broadcast";
+    if (window.HLRN_ANALYTICS) window.HLRN_ANALYTICS.track("race_cut_play", { sourceId: id, timestamp: start, chapterIndex: chapterIndex, label: label });
     frame.src = "https://www.youtube.com/embed/" + encodeURIComponent(id) + "?autoplay=1&rel=0&playsinline=1&start=" + Math.floor(start) + (stop > start ? "&end=" + Math.floor(stop) : "");
     var timeNode = document.getElementById("raceNowTime");
     var titleNode = document.getElementById("raceNowTitle");
@@ -710,6 +720,7 @@
     if (!source) return;
     var start = Math.max(0, Number(timestamp) || 0);
     var label = title || sourceTitle(source);
+    if (window.HLRN_ANALYTICS) window.HLRN_ANALYTICS.track("source_play", { sourceId: id, timestamp: start, label: label });
     var youtube = "https://www.youtube.com/watch?v=" + encodeURIComponent(id) + "&t=" + Math.floor(start) + "s";
     var replayIndex = state.replayIds.findIndex(function (momentId) {
       var item = momentMap[momentId];
@@ -762,17 +773,18 @@
       '<section class="hero"><div class="hero-grid"></div><div class="hero-lines"><i></i><i></i><i></i></div><div class="wrap hero-inner">' +
       '<div class="hero-copy"><span class="eyebrow"><i></i>EVERY SIGNAL LEADS BACK TO THE RACE</span><h1>THE HIGH LINE<br><em>NEVER ENDS.</em></h1>' +
       '<p>Official HLRN Seasons 1–2 and the complete Highline Live shelf—searchable, playable, indexed to the moment, and backed by a recovered winner receipt for every official race.</p>' +
-      '<div class="hero-actions"><a class="button hot" href="#/watch">FIND A RACE</a><a class="button glass" href="#/central">ENTER CENTRAL</a></div>' +
+      '<div class="hero-actions"><a class="button hot" href="#/watch">FIND A RACE</a><a class="button glass" href="#/central">ENTER CENTRAL</a><a class="button glass" href="#/hq">LEAGUE HQ</a></div>' +
       '<div class="hero-ledger"><div><b>' + records.officialCount + '</b><span>OFFICIAL<br>RACES</span></div><div><b>' + records.liveCount + '</b><span>HIGHLINE LIVE<br>FILES</span></div><div><b>' + records.hours + '</b><span>HOURS OF<br>TAPE</span></div><div><b>' + records.transcriptSegments.toLocaleString() + '</b><span>TIMED<br>SEGMENTS</span></div></div></div>' +
       '<aside class="hero-live-card"><div class="on-air"><i></i>SEASON 2 / CURRENT SIGNAL</div><img src="' + esc(latest.thumb) + '" alt="Latest official HLRN broadcast"><div class="hero-live-copy">' +
       laneBadge(latest) + '<h2>' + esc(sourceTitle(latest)) + '</h2><p>' + esc(latest.track) + " · " + esc(fmtDate(latest.date)) + "</p>" +
       heatBar(latest) + '<div><button onclick="__play(\'' + latest.id + '\',0,' + playArg(sourceTitle(latest)) + ')">▶ WATCH FROM START</button><a href="#/race/' + latest.id + '">OPEN RACE FILE</a></div></div></aside></div></section>' +
+      '<section class="home-owner-rail"><div class="wrap"><div><span>PUBLIC-SOURCE PREVIEW / OWNER-READY</span><b>THE ARCHIVE IS BUILT. THE OFFICIAL LEAGUE LAYER IS READY TO CLAIM.</b></div><div><a href="#/owner-preview">TAKE THE 90-SECOND OWNER TOUR</a><a href="#/owner">OPEN OWNER ACCESS</a></div></div></section>' +
       '<section class="route-console"><div class="wrap"><header><span>CHOOSE YOUR FREQUENCY</span><h2>EIGHT WAYS INTO THE NETWORK</h2></header><div class="route-grid">' +
       featureRoutes.map(function (item) { return '<a href="' + item[3] + '"><b>' + item[0] + '</b><span>' + item[1] + '</span><p>' + item[2] + '</p><em>OPEN ↗</em></a>'; }).join("") +
       '</div></div></section>' +
-      '<section class="home-native-tools"><div class="wrap"><header><span>BUILT FOR HLRN / NOT IN THE VRL TEMPLATE</span><h2>WATCH IT. COMPARE IT. CUT IT. BRING IT BACK.</h2></header><div><a href="#/race-night"><b>RACE NIGHT MIXER</b><span>Build a reviewed multi-race itinerary by mood.</span></a><a href="#/compare"><b>DRIVER COMPARE</b><span>Side-by-side counts with no hidden verdict.</span></a><a href="#/replay"><b>REPLAY BUILDER</b><span>Save, order, play, copy, and export exact cuts.</span></a><a href="#/studio"><b>LORE STUDIO</b><span>Turn archive research into a guarded edit manifest.</span></a><a href="#/pulse"><b>WHAT’S NEW</b><span>Return to the source delta this browser remembers.</span></a></div></div></section>' +
+      '<section class="home-native-tools"><div class="wrap"><header><span>BUILT FOR THE WAY HLRN RACES LIVE ON TAPE</span><h2>WATCH IT. COMPARE IT. CUT IT. BRING IT BACK.</h2></header><div><a href="#/race-night"><b>RACE NIGHT MIXER</b><span>Build a reviewed multi-race itinerary by mood.</span></a><a href="#/compare"><b>DRIVER COMPARE</b><span>Side-by-side counts with no hidden verdict.</span></a><a href="#/replay"><b>REPLAY BUILDER</b><span>Save, order, play, copy, and export exact cuts.</span></a><a href="#/studio"><b>OWNER STUDIO</b><span>Move exact cuts through review, approval, publication, and performance notes.</span></a><a href="#/sponsors"><b>SPONSOR FLIGHT RECORDER</b><span>Review indexed partner language without calling caption hits impressions.</span></a><a href="#/pulse"><b>WHAT’S NEW</b><span>Return to the source delta this browser remembers.</span></a></div></div></section>' +
       '<section class="home-current"><div class="wrap"><div class="section-title"><div><span>THE OFFICIAL ROAD</span><h2>HOT SIGNALS FROM THE SEASONS</h2></div><a href="#/seasons">ALL OFFICIAL RACES →</a></div><div class="source-grid">' + hotOfficial.map(sourceCard).join("") + "</div></div></section>" +
-      '<section class="central-tease"><div class="wrap"><div class="central-word"><span>RACE DESK / COMPANION SHOW / EXACT TAPE</span><h2>HIGHLINE<br><em>CENTRAL</em></h2><p>The league already has something VRL never did: its own short-form companion show. Central pairs each race file with The Show whenever the channel published one.</p><a class="button hot" href="#/central">OPEN THE DESK</a></div>' +
+      '<section class="central-tease"><div class="wrap"><div class="central-word"><span>RACE DESK / COMPANION SHOW / EXACT TAPE</span><h2>HIGHLINE<br><em>CENTRAL</em></h2><p>HLRN’s short-form companion show gives the race desk a second broadcast lane. Central pairs each race file with The Show whenever the channel published one.</p><a class="button hot" href="#/central">OPEN THE DESK</a></div>' +
       '<div class="central-screen"><span>THE SHOW CONNECTION</span>' +
       (latest.companion ? '<img src="' + esc(latest.companion.thumb) + '" alt="Companion episode thumbnail"><h3>' + esc(latest.companion.title) + '</h3><button onclick="__play(\'' + latest.companion.id + '\',0,' + playArg(latest.companion.title) + ')">▶ PLAY COMPANION</button>' : '<div class="no-signal">COMPANION MAPPING IN REVIEW</div>') +
       "</div></div></section>" +
@@ -865,8 +877,17 @@
     runAsk(query);
   };
 
+  function normalizeAskQuery(query) {
+    return String(query || "")
+      .toLowerCase()
+      .replace(/[’‘]/g, "'")
+      .replace(/[^a-z0-9']+/g, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
   function structuredAnswer(query) {
-    var lower = query.toLowerCase();
+    var lower = normalizeAskQuery(query);
     var raceNumbers = lower.match(/(?:season\s*|s)(\d+)\s*(?:[,/·-]\s*)?(?:race\s*|r)(\d+)/);
     if (raceNumbers && /who won|winner|result/.test(lower)) {
       var numberedRace = DATA.sources.find(function (item) {
@@ -940,10 +961,20 @@
     if (!box) return;
     box.innerHTML = '<div class="ask-loading"><i></i>SCANNING ' + TR_INDEX.length + " TIMED SOURCES…</div>";
     var direct = structuredAnswer(query);
-    var terms = query.toLowerCase().split(/[^a-z0-9']+/).filter(function (term) { return term.length >= 3 && !["what", "when", "where", "which", "that", "this", "with", "from", "race"].includes(term); });
-    var searchableSources = state.canon === "official"
+    var normalizedQuery = normalizeAskQuery(query);
+    var requestedSeasonMatch = normalizedQuery.match(/\bseason\s*(\d+)\b/);
+    var requestedSeason = requestedSeasonMatch ? Number(requestedSeasonMatch[1]) : null;
+    var requestedTrack = Array.from(new Set(DATA.sources.map(function (item) { return item.track; }).filter(Boolean)))
+      .sort(function (a, b) { return b.length - a.length; })
+      .find(function (track) { return normalizedQuery.includes(normalizeAskQuery(track)); });
+    function sourceMatchesAskScope(source) {
+      return (!requestedSeason || source.season === requestedSeason) &&
+        (!requestedTrack || normalizeAskQuery(source.track) === normalizeAskQuery(requestedTrack));
+    }
+    var terms = normalizedQuery.split(" ").filter(function (term) { return term.length >= 3 && !["what", "when", "where", "which", "that", "this", "with", "from", "race"].includes(term); });
+    var searchableSources = (state.canon === "official"
       ? DATA.sources.filter(function (item) { return item.lane === "official"; })
-      : DATA.sources;
+      : DATA.sources).filter(sourceMatchesAskScope);
     await Promise.all(searchableSources.map(function (source) { return loadTranscript(source.id); }));
     var hits = [];
     searchableSources.forEach(function (source) {
@@ -957,11 +988,12 @@
     });
     hits.sort(function (a, b) { return b.score - a.score || String(b.source.date).localeCompare(String(a.source.date)); });
     var sourceHits = DATA.sources.filter(function (source) {
+      if (!sourceMatchesAskScope(source)) return false;
       var hay = [source.title, source.name, source.track, source.kind].join(" ").toLowerCase();
       return terms.some(function (term) { return hay.includes(term); });
     }).slice(0, 6);
     var chapterHits = DATA.sources.filter(function (source) {
-      return source.lane === "official";
+      return source.lane === "official" && sourceMatchesAskScope(source);
     }).flatMap(function (source) {
       return (source.chapters || []).map(function (chapter) {
         var hay = [
@@ -977,7 +1009,11 @@
       return b.score - a.score || b.source.season - a.source.season ||
         b.source.race - a.source.race || a.chapter.t - b.chapter.t;
     }).slice(0, 12);
-    var centralHits = (DATA.publications || []).map(function (issue) {
+    var centralHits = (DATA.publications || []).filter(function (issue) {
+      var source = sourceMap[issue.sourceId || issue.id];
+      return (!requestedSeason || issue.season === requestedSeason) &&
+        (!requestedTrack || (source && normalizeAskQuery(source.track) === normalizeAskQuery(requestedTrack)));
+    }).map(function (issue) {
       var hay = [
         issue.headline, issue.deck, (issue.lead || []).join(" "), issue.whyItMatters,
         (issue.raceReport || []).map(function (section) { return section.headline + " " + section.body; }).join(" "),
@@ -1297,7 +1333,7 @@
       '<small>IDENTITY BASIS / ' + esc(String(driver.identityStatus || "transcript-normalized").replace(/-/g, " ").toUpperCase()) + '</small>' +
       '<div class="dossier-badges">' + (driver.name === "Trevor Haley" ? '<b>SEASON 1 CHAMPION</b>' : '') + (stats.tapeSupportedWins ? '<b>' + stats.tapeSupportedWins + '× RACE WINNER</b>' : '') + (stats.tapeSupportedPodiums ? '<b>' + stats.tapeSupportedPodiums + '× RECOVERED PODIUM</b>' : '') + '</div>' +
       (driver.aliases && driver.aliases.length ? '<small>TRANSCRIPT ALIASES / ' + driver.aliases.map(esc).join(" / ") + "</small>" : "") + '</div><aside><div><b>' + stats.tapeSupportedWins + "</b><span>WINS</span></div><div><b>" + stats.tapeSupportedPodiums + "</b><span>PODIUMS</span></div><div><b>" + stats.centralIssueCount + "</b><span>CENTRAL<br>EDITIONS</span></div><div><b>" + stats.officialSourceCount + "</b><span>OFFICIAL<br>FILES</span></div></aside></div></section>" +
-      '<section class="driver-tier-banner"><div class="wrap"><span>' + esc(tier.label) + '</span><p>' + esc(tier.note) + '</p><a href="#/methodology">HOW DOSSIER EVIDENCE WORKS →</a></div></section>' +
+      '<section class="driver-tier-banner"><div class="wrap"><span>' + esc(tier.label) + '</span><p>' + esc(tier.note) + '</p><a href="#/claim/' + esc(driver.id) + '">CLAIM / COMPLETE THIS PROFILE →</a><a href="#/methodology">HOW DOSSIER EVIDENCE WORKS →</a></div></section>' +
       dossierNav +
       '<div class="wrap driver-body"><main><section class="driver-summary dossier-story" id="driverStory"><span>THE EVIDENCE-SHAPED CAREER READ</span><h2>' + esc(driver.careerHeading || "A SOURCE-LINKED DRIVER FILE") + '</h2>' + (driver.story || []).map(function (paragraph) { return '<p>' + esc(paragraph) + '</p>'; }).join("") + '</section>' +
       '<section class="driver-known-facts" id="driverFacts"><div class="section-title"><div><span>FIVE CELLS THAT DO NOT BLUR</span><h2>WHAT THE DOSSIER ACTUALLY KNOWS</h2></div></div><div>' + (driver.knownFacts || []).map(function (fact) { return '<article><span>' + esc(fact.label) + '</span><b>' + esc(fact.value) + '</b><p>' + esc(fact.note) + '</p></article>'; }).join("") + '</div></section>' +
@@ -1979,7 +2015,7 @@
     var options = DATA.sources.slice().sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); }).map(function (source) { return '<option value="' + source.id + '">' + esc(fmtDate(source.date, true) + " · " + sourceTitle(source)) + '</option>'; }).join("");
     app.innerHTML = '<div class="corrections-page">' + pageHead("CORRECTIONS DESK / APPEND-ONLY TRUST WORKFLOW", "FIX THE RECORD.<br><em>KEEP THE RECEIPT.</em>", "Prepare a source-bounded correction packet for owner or editor review. This browser tool never changes the public archive by itself.", [
       [DATA.sources.length, "STABLE SOURCE IDS"], [DATA.records.centralIssueCount, "REVIEWABLE EDITIONS"], ["0", "SILENT OVERWRITES"],
-    ]) + '<div class="wrap"><section class="correction-desk"><form onsubmit="event.preventDefault();__buildCorrection()"><label>SOURCE FILE<select id="correctionSource">' + options + '</select></label><label>TIMESTAMP IN SECONDS<input id="correctionTime" type="number" min="0" value="0"></label><label>ISSUE TYPE<select id="correctionType"><option>result</option><option>driver identity</option><option>track metadata</option><option>team or number</option><option>editorial context</option><option>removed source</option><option>other</option></select></label><label class="wide">PROPOSED CORRECTION<textarea id="correctionDetail" placeholder="State exactly what is wrong, what should replace it, and what evidence supports the change."></textarea></label><label class="wide">AUTHORITY OR CONTACT<textarea id="correctionAuthority" placeholder="Owner, official sheet, source URL, or contact name."></textarea></label><button type="submit">BUILD REVIEW PACKET</button></form><aside><span>REVIEW PACKET</span><pre id="correctionOutput">Complete the form to create an append-only correction packet.</pre><div><button onclick="__copyCorrection()">COPY JSON</button><button onclick="__downloadCorrection()">DOWNLOAD JSON</button></div></aside></section><section class="correction-flow"><article><b>01</b><h3>LOCATE</h3><p>Stable source ID and exact timestamp.</p></article><article><b>02</b><h3>PROPOSE</h3><p>Old claim, proposed correction, and authority.</p></article><article><b>03</b><h3>REVIEW</h3><p>Editor checks source, scope, and downstream routes.</p></article><article><b>04</b><h3>APPEND</h3><p>Correction ships with prior state preserved.</p></article></section>' + evidenceNote("THIS FORM IS A PACKET BUILDER, NOT A SUBMISSION ENDPOINT.", "Copy or download the packet and send it to the archive owner/editor. No public claim changes until an authorized review and a new build pass all gates.") + '</div></div>';
+    ]) + '<div class="wrap"><section class="correction-desk"><form onsubmit="event.preventDefault();__buildCorrection()"><label>SOURCE FILE<select id="correctionSource">' + options + '</select></label><label>TIMESTAMP IN SECONDS<input id="correctionTime" type="number" min="0" value="0"></label><label>ISSUE TYPE<select id="correctionType"><option>result</option><option>driver identity</option><option>track metadata</option><option>team or number</option><option>editorial context</option><option>removed source</option><option>other</option></select></label><label class="wide">PROPOSED CORRECTION<textarea id="correctionDetail" placeholder="State exactly what is wrong, what should replace it, and what evidence supports the change."></textarea></label><label class="wide">AUTHORITY OR CONTACT<textarea id="correctionAuthority" placeholder="Owner, official sheet, source URL, or contact name."></textarea></label><button type="submit">BUILD REVIEW PACKET</button></form><aside><span>REVIEW PACKET</span><pre id="correctionOutput">Complete the form to create an append-only correction packet.</pre><div><button onclick="__copyCorrection()">COPY JSON</button><button onclick="__downloadCorrection()">DOWNLOAD JSON</button><button onclick="__submitCorrectionReview()">SUBMIT FOR REVIEW</button></div></aside></section><section class="correction-flow"><article><b>01</b><h3>LOCATE</h3><p>Stable source ID and exact timestamp.</p></article><article><b>02</b><h3>PROPOSE</h3><p>Old claim, proposed correction, and authority.</p></article><article><b>03</b><h3>REVIEW</h3><p>Editor checks source, scope, and downstream routes.</p></article><article><b>04</b><h3>APPEND</h3><p>Correction ships with prior state preserved.</p></article></section>' + evidenceNote("SUBMISSION OPENS A TRACKED REVIEW—NEVER AN AUTOMATIC EDIT.", "Copy, download, or open the packet in the public HLRN review queue. No claim changes until authority and evidence are reviewed and a new build passes every release gate.") + '</div></div>';
   }
   window.__buildCorrection = function () {
     var packet = correctionPacket();
@@ -1989,6 +2025,11 @@
   };
   window.__copyCorrection = function () { copyText(JSON.stringify(correctionPacket(), null, 2), "Correction packet copied"); };
   window.__downloadCorrection = function () { downloadText("hlrn-correction-packet.json", JSON.stringify(correctionPacket(), null, 2)); };
+  window.__submitCorrectionReview = function () {
+    var packet = correctionPacket();
+    window.__buildCorrection();
+    if (window.HLRN_OWNER_UI) window.HLRN_OWNER_UI.openIssue("archive-correction", packet);
+  };
 
   function resultIntakePacket() {
     var race = document.getElementById("resultRace");
@@ -2012,14 +2053,24 @@
     var races = officialRaces().map(function (source) { return '<option value="' + source.id + '">S' + source.season + ' R' + source.race + ' · ' + esc(source.track) + ' · CURRENT: ' + esc((source.result || {}).winner || "OPEN") + '</option>'; }).join("");
     app.innerHTML = '<div class="result-intake-page">' + pageHead("OWNER WORKFLOW / STRUCTURED RESULT PATCH", "ADD THE SHEET.<br><em>DON’T BREAK THE ARCHIVE.</em>", "Turn an owner-supplied result into a review packet that can update races, drivers, rankings, Central, and Ask without changing stable IDs.", [
       [officialRaces().length, "TARGET RACES"], [DATA.drivers.length, "IDENTITIES TO NORMALIZE"], ["4", "DOWNSTREAM CHECKS"],
-    ]) + '<div class="wrap"><section class="intake-desk"><form onsubmit="event.preventDefault();__buildResultIntake()"><label>OFFICIAL RACE<select id="resultRace">' + races + '</select></label><label>WINNER<input id="resultWinner" placeholder="Exact official name"></label><label>P2<input id="resultP2" placeholder="Optional"></label><label>P3<input id="resultP3" placeholder="Optional"></label><label>RECEIPT SOURCE ID<input id="resultReceipt" placeholder="YouTube source ID or owner sheet ID"></label><label>RECEIPT TIMESTAMP<input id="resultTimestamp" type="number" min="0" value="0"></label><label class="wide">RULING / NOTES<textarea id="resultRuling" placeholder="DQ, penalty, scoring note, or sheet authority."></textarea></label><button type="submit">BUILD RESULT PATCH</button></form><aside><span>OWNER INTAKE PACKET</span><pre id="resultOutput">Complete the owner-supplied fields. The packet remains pending until authenticated.</pre><div><button onclick="__copyResultIntake()">COPY JSON</button><button onclick="__downloadResultIntake()">DOWNLOAD JSON</button></div></aside></section><section class="downstream-map"><span>ONE PATCH / SIX GUARDED CONSUMERS</span><div><b>RACE FILE</b><i>→</i><b>DRIVER FORM</b><i>→</i><b>RESULTS ROOM</b><i>→</i><b>RANKINGS</b><i>→</i><b>CENTRAL</b><i>→</i><b>ASK</b></div><p>The build pipeline regenerates every consumer from the accepted ledger. No page receives a one-off manual edit.</p></section>' + evidenceNote("OWNER INPUT IS HIGHER AUTHORITY, NOT AUTOMATIC TRUTH.", "The source and identity still require authentication and scope review. Conflicts are preserved and corrections remain append-only.") + '</div></div>';
+    ]) + '<div class="wrap"><section class="intake-desk"><form onsubmit="event.preventDefault();__buildResultIntake()"><label>OFFICIAL RACE<select id="resultRace">' + races + '</select></label><label>WINNER<input id="resultWinner" placeholder="Exact official name"></label><label>P2<input id="resultP2" placeholder="Optional"></label><label>P3<input id="resultP3" placeholder="Optional"></label><label>RECEIPT SOURCE ID<input id="resultReceipt" placeholder="YouTube source ID or owner sheet ID"></label><label>RECEIPT TIMESTAMP<input id="resultTimestamp" type="number" min="0" value="0"></label><label class="wide">RULING / NOTES<textarea id="resultRuling" placeholder="DQ, penalty, scoring note, or sheet authority."></textarea></label><button type="submit">BUILD RESULT PATCH</button></form><aside><span>OWNER INTAKE PACKET</span><pre id="resultOutput">Complete the owner-supplied fields. The packet remains pending until authenticated.</pre><div><button onclick="__copyResultIntake()">COPY JSON</button><button onclick="__downloadResultIntake()">DOWNLOAD JSON</button><button onclick="__submitResultReview()">SUBMIT FOR REVIEW</button></div></aside></section><section class="downstream-map"><span>ONE PATCH / SIX GUARDED CONSUMERS</span><div><b>RACE FILE</b><i>→</i><b>DRIVER FORM</b><i>→</i><b>RESULTS ROOM</b><i>→</i><b>RANKINGS</b><i>→</i><b>CENTRAL</b><i>→</i><b>ASK</b></div><p>The build pipeline regenerates every consumer from the accepted ledger. No page receives a one-off manual edit.</p></section>' + evidenceNote("OWNER INPUT IS HIGHER AUTHORITY, NOT AUTOMATIC TRUTH.", "Submission opens a tracked review. The source, identity, and authority must still be checked; conflicts are preserved and corrections remain append-only.") + '</div></div>';
   }
   window.__buildResultIntake = function () { var output = document.getElementById("resultOutput"); if (output) output.textContent = JSON.stringify(resultIntakePacket(), null, 2); };
   window.__copyResultIntake = function () { copyText(JSON.stringify(resultIntakePacket(), null, 2), "Result intake packet copied"); };
   window.__downloadResultIntake = function () { downloadText("hlrn-owner-result-intake.json", JSON.stringify(resultIntakePacket(), null, 2)); };
+  window.__submitResultReview = function () {
+    var packet = resultIntakePacket();
+    window.__buildResultIntake();
+    if (window.HLRN_OWNER_UI) window.HLRN_OWNER_UI.openIssue("owner-result-patch", packet);
+  };
 
   function explorePage() {
     var cards = [
+      ["LEAGUE HQ", "The current operational front door for schedule, standings, roster, live race, and owner-certified records.", "#/hq", "OWNER-READY"],
+      ["OWNER TOUR", "One race becomes exact cuts, a Central story, durable people records, sponsor proof, and a production queue.", "#/owner-preview", "90 SECONDS"],
+      ["TEAM PADDOCK", "Structured team associations with current-roster boundaries and owner intake.", "#/teams", "10 TEAM FILES"],
+      ["SPONSOR FLIGHT RECORDER", "Caption evidence, source receipts, and exportable proof without impression claims.", "#/sponsors", "295 CAPTION HITS"],
+      ["IMPACT BOARD", "Privacy-local interaction measurement with an owner-controlled analytics contract ready to connect.", "#/impact", "NO USER ID"],
       ["HIGHLINE LIVE", "The complete non-league potpourri, fully covered and explicitly separated.", "#/highline-live", DATA.records.liveCount + " RACES"],
       ["RESULTS ROOM", "All 20 recovered official podiums with position-specific receipts and open full-field boundaries.", "#/results", "60 / 60 PODIUM CELLS"],
       ["TOP 25 AWARDS", "Nine weighted evidence boards with component telemetry and playable receipts.", "#/awards", DATA.rankings.order.length + " BOARDS"],
@@ -2034,7 +2085,7 @@
       ["THE SHOW", "HLRN’s companion universe and separated After Hours columns.", "#/the-show", DATA.records.centralIssueCount + " MATCHES"],
       ["RACE NIGHT MIXER", "Build a reviewed multi-race itinerary by mood and length.", "#/race-night", "FAN MIXER"],
       ["REPLAY BUILDER", "Save, order, play, copy, and export exact source cuts.", "#/replay", state.replayIds.length + " SAVED"],
-      ["LORE STUDIO", "Creator research, shortlist, and manifest workflow.", "#/studio", "CREATOR DESK"],
+      ["OWNER STUDIO", "Exact cuts move through candidate, reviewed, approved, and published states with portable exports.", "#/studio", "PRODUCTION DESK"],
       ["WHAT’S NEW", "A browser-local return ritual that remembers the prior source set.", "#/pulse", "RETURN RITUAL"],
       ["HIGH LINE RADAR", "Race story signals plotted across exact source time.", "#/radar", DATA.moments.length + " CONTACTS"],
       ["HIGHLINE FREQUENCY", "Recurring network language with playable exact receipts.", "#/frequency", DATA.phrases.length + " FREQUENCIES"],
@@ -2044,6 +2095,9 @@
       ["OPEN RECORDS", "Image, track, podium, standings, and metadata gaps made visible.", "#/unknowns", "NO GUESSING"],
       ["CORRECTIONS DESK", "Build an append-only source-bounded correction packet.", "#/corrections", "TRUST TOOL"],
       ["OWNER RESULT INTAKE", "Prepare a structured result patch for authenticated review.", "#/result-intake", "OWNER TOOL"],
+      ["DRIVER CLAIMS", "Propose authorized car art, number, team, bio, socials, and sponsor details.", "#/claim", "REVIEWED INTAKE"],
+      ["OWNER ACCESS", "Request certification, download clean data templates, and begin an official handoff.", "#/owner", "CLAIM THE EDITION"],
+      ["TRUST & OWNERSHIP", "Authorization, video rights, evidence, privacy, sponsor boundaries, and no-lock-in handoff.", "#/legal", "PUBLIC CONTRACT"],
       ["SOURCE LEDGER", "Every stable livestream identity and evidence state.", "#/sources", DATA.records.sourceCount + " SOURCES"],
       ["METHODOLOGY", "Canon, evidence states, scoring, unknowns, and corrections.", "#/methodology", "OPEN CONTRACT"],
     ];
@@ -2153,7 +2207,8 @@
     var hash = location.hash || "#/";
     var match;
     window.scrollTo(0, 0);
-    if (hash === "#/" || hash === "") home();
+    if (window.HLRN_OWNER_UI && window.HLRN_OWNER_UI.handles(hash)) window.HLRN_OWNER_UI.render(hash);
+    else if (hash === "#/" || hash === "") home();
     else if (hash === "#/watch") watch();
     else if (hash === "#/ask") askPage("");
     else if ((match = hash.match(/^#\/ask\/(.+)$/))) askPage(decodeURIComponent(match[1]));
@@ -2202,7 +2257,8 @@
     else if ((match = hash.match(/^#\/race\/([\w-]+)$/))) racePage(match[1]);
     else notFound();
     var heading = app.querySelector("h1");
-    document.title = (heading ? heading.textContent.replace(/\s+/g, " ").trim() + " · " : "") + "HLRN Living Wiki";
+    var headingTitle = heading ? String(heading.innerText || heading.textContent || "").replace(/\s+/g, " ").trim() : "";
+    document.title = (headingTitle ? headingTitle + " · " : "") + "HLRN Living Wiki";
     app.focus({ preventScroll: true });
   }
 

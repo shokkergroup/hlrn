@@ -1,0 +1,4655 @@
+{
+  "auditedAt": "2026-07-31T19:40:36.229Z",
+  "passed": true,
+  "counts": {
+    "expectedPages": 265,
+    "actualPages": 265,
+    "race": 20,
+    "central": 20,
+    "driver": 225,
+    "sitemapUrls": 266
+  },
+  "errors": [],
+  "warnings": [],
+  "files": [
+    {
+      "file": "central/1hQe3Cg_KB8/index.html",
+      "type": "central",
+      "id": "1hQe3Cg_KB8",
+      "title": "Escamilla Wins Through the Wreck | Highline Central",
+      "description": "A last-lap crash split the pack, and Juan Escamilla held Justin Lee Pearson by a nose in the first true photo-finish file of Season 1. Read the source-bounded HLRN Season 1…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/1hQe3Cg_KB8/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/1hQe3Cg_KB8.jpg",
+      "spaRoute": "#/central/1hQe3Cg_KB8",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/4HnbWW_C124/index.html",
+      "type": "central",
+      "id": "4HnbWW_C124",
+      "title": "Stamper Survives the Final Reset | Highline Central",
+      "description": "Three green-white-checkered attempts, a last restart, and one premature call later, Shawn Stamper finally crossed as the winner. Read the source-bounded HLRN Season 1, Race…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/4HnbWW_C124/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/4HnbWW_C124.jpg",
+      "spaRoute": "#/central/4HnbWW_C124",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/7R7osKxmt2Q/index.html",
+      "type": "central",
+      "id": "7R7osKxmt2Q",
+      "title": "Moreno Owns Las Vegas | Highline Central",
+      "description": "Nick Bowman stole Stage 1, but Ethan Moreno answered with the pole, fastest lap, most laps led, Stage 2, and the win. Read the source-bounded HLRN Season 1, Race 6 report…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/7R7osKxmt2Q/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/7R7osKxmt2Q.jpg",
+      "spaRoute": "#/central/7R7osKxmt2Q",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/7rhtVe7p684/index.html",
+      "type": "central",
+      "id": "7rhtVe7p684",
+      "title": "Bowman Outlasts Iowa | Highline Central",
+      "description": "Trevor Haley took the stage, but Nick Bowman survived a 23-caution night to beat his teammate and Cory Cook. Read the source-bounded HLRN Season 2, Race 2 report with exact…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/7rhtVe7p684/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/7rhtVe7p684.jpg",
+      "spaRoute": "#/central/7rhtVe7p684",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/CAy1sfobkjc/index.html",
+      "type": "central",
+      "id": "CAy1sfobkjc",
+      "title": "Yusnukas Steals Charlotte Late | Highline Central",
+      "description": "Trevor Haley swept the stage points, but Joseph Yusnukas survived the final scramble and stopped Darkhorse's opening run. Read the source-bounded HLRN Season 1, Race 3…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/CAy1sfobkjc/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/CAy1sfobkjc.jpg",
+      "spaRoute": "#/central/CAy1sfobkjc",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/GiBpQcRxiK0/index.html",
+      "type": "central",
+      "id": "GiBpQcRxiK0",
+      "title": "Brown Survives Daytona | Highline Central",
+      "description": "A final-lap wreck removed the front group and opened the lane for Matt Brown, Ryan Wilson, and Ricky Miles. Read the source-bounded HLRN Season 1, Race 12 report with exact…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/GiBpQcRxiK0/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/GiBpQcRxiK0.jpg",
+      "spaRoute": "#/central/GiBpQcRxiK0",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/KS8f6L1G-cM/index.html",
+      "type": "central",
+      "id": "KS8f6L1G-cM",
+      "title": "Cook Takes Kansas from Haley | Highline Central",
+      "description": "Trevor Haley swept the stage points and reached the championship lead, but Cory Cook made the pass that delivered his first HLRN win. Read the source-bounded HLRN Season 1…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/KS8f6L1G-cM/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/KS8f6L1G-cM.jpg",
+      "spaRoute": "#/central/KS8f6L1G-cM",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/NLBFD59ykZQ/index.html",
+      "type": "central",
+      "id": "NLBFD59ykZQ",
+      "title": "Richmond Turns Late | Highline Central",
+      "description": "Bryson Myers led the most laps and Trevor Haley won another stage, but Nick Bowman owned the final circuit. Read the source-bounded HLRN Season 1, Race 14 report with exact…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/NLBFD59ykZQ/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/NLBFD59ykZQ.jpg",
+      "spaRoute": "#/central/NLBFD59ykZQ",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/PSEqzU7I0xs/index.html",
+      "type": "central",
+      "id": "PSEqzU7I0xs",
+      "title": "Escamilla Closes Chicagoland | Highline Central",
+      "description": "Brandon Showers and Juan Escamilla divided the stages before the points leader took command of the final run. Read the source-bounded HLRN Season 1, Race 9 report with exact…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/PSEqzU7I0xs/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/PSEqzU7I0xs.jpg",
+      "spaRoute": "#/central/PSEqzU7I0xs",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/RUoyXBOFres/index.html",
+      "type": "central",
+      "id": "RUoyXBOFres",
+      "title": "Porter Opens the Highline Era | Highline Central",
+      "description": "Bryce Hinton banked the first stage, but Jaden Porter delivered Darkhorse the inaugural feature win at Daytona. Read the source-bounded HLRN Season 1, Race 1 report with…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/RUoyXBOFres/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/RUoyXBOFres.jpg",
+      "spaRoute": "#/central/RUoyXBOFres",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/SRi2RdvUfAo/index.html",
+      "type": "central",
+      "id": "SRi2RdvUfAo",
+      "title": "Escamilla Takes the Superspeedway | Highline Central",
+      "description": "James Smith and an uncertain second-stage scorer set the table before Juan Escamilla displaced teammate Trevor Haley in the final run. Read the source-bounded HLRN Season 1…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/SRi2RdvUfAo/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/SRi2RdvUfAo.jpg",
+      "spaRoute": "#/central/SRi2RdvUfAo",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/Tw1ZePrIt1Q/index.html",
+      "type": "central",
+      "id": "Tw1ZePrIt1Q",
+      "title": "Applegate Wins After Haley's DQ | Highline Central",
+      "description": "Trevor Haley reached the stripe first, but HLRN's review removed the No. 12 for a below-yellow-line advance and contact, elevating David Applegate. Read the source-bounded…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/Tw1ZePrIt1Q/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/Tw1ZePrIt1Q.jpg",
+      "spaRoute": "#/central/Tw1ZePrIt1Q",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/XYXxHpKdiDU/index.html",
+      "type": "central",
+      "id": "XYXxHpKdiDU",
+      "title": "Moreno Owns the Chicagoland Closing Run | Highline Central",
+      "description": "Nick Bowman led the most laps, but Ethan Moreno pulled clear of Matt Brown and Kyle Cameron when the final lap arrived. Read the source-bounded HLRN Season 2, Race 3 report…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/XYXxHpKdiDU/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/XYXxHpKdiDU.jpg",
+      "spaRoute": "#/central/XYXxHpKdiDU",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/YBeqOsi6IbY/index.html",
+      "type": "central",
+      "id": "YBeqOsi6IbY",
+      "title": "Bowman Sweeps the Roval | Highline Central",
+      "description": "Pole, fastest lap, most laps led, the lone stage, and the win: Nick Bowman left Charlotte with every major companion stat. Read the source-bounded HLRN Season 1, Race 11…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/YBeqOsi6IbY/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/YBeqOsi6IbY.jpg",
+      "spaRoute": "#/central/YBeqOsi6IbY",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/bd3t5XgtQso/index.html",
+      "type": "central",
+      "id": "bd3t5XgtQso",
+      "title": "Moreno Restarts the Story at Daytona | Highline Central",
+      "description": "Prime X swept the stage points, but Ethan Moreno abandoned Ryan Wilson on the final run and restored Darkhorse to Victory Lane. Read the source-bounded HLRN Season 2, Race 1…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/bd3t5XgtQso/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/bd3t5XgtQso.jpg",
+      "spaRoute": "#/central/bd3t5XgtQso",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/kLqZuSjM4t4/index.html",
+      "type": "central",
+      "id": "kLqZuSjM4t4",
+      "title": "Randy Steals Michigan Late | Highline Central",
+      "description": "Trevor Haley and Cory Cook split the stages, but Randy Showers timed the closing run and passed Logan Wilson for his first Highline win. Read the source-bounded HLRN Season…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/kLqZuSjM4t4/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/kLqZuSjM4t4.jpg",
+      "spaRoute": "#/central/kLqZuSjM4t4",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/lcO1Lo69zqo/index.html",
+      "type": "central",
+      "id": "lcO1Lo69zqo",
+      "title": "Escamilla Controls the Glen | Highline Central",
+      "description": "Juan Escamilla won the stage and the race, Trevor Haley followed him home, and Jacob Brown completed the recovered podium. Read the source-bounded HLRN Season 1, Race 5…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/lcO1Lo69zqo/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/lcO1Lo69zqo.jpg",
+      "spaRoute": "#/central/lcO1Lo69zqo",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/mEI0Oo-Sm5s/index.html",
+      "type": "central",
+      "id": "mEI0Oo-Sm5s",
+      "title": "Rowe Wins the Memorial in the Wreckage | Highline Central",
+      "description": "Vincent Guerrero took the stage, Craig Rowe took the last-lap lead, and the David Boyer Memorial ended after 18 reported cautions. Read the source-bounded HLRN Season 2…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/mEI0Oo-Sm5s/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/mEI0Oo-Sm5s.jpg",
+      "spaRoute": "#/central/mEI0Oo-Sm5s",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/tY1DETWdQGk/index.html",
+      "type": "central",
+      "id": "tY1DETWdQGk",
+      "title": "Moreno Takes Over Homestead | Highline Central",
+      "description": "Juan Escamilla and Bryce Hinton split the stages before Ethan Moreno turned his Highline debut into a feature win. Read the source-bounded HLRN Season 1, Race 2 report with…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/tY1DETWdQGk/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/tY1DETWdQGk.jpg",
+      "spaRoute": "#/central/tY1DETWdQGk",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "central/upQfchHHEJw/index.html",
+      "type": "central",
+      "id": "upQfchHHEJw",
+      "title": "Papowell Takes Dover | Highline Central",
+      "description": "Trevor Haley and Nick Bowman divided the stages, but Connor Papowell passed into the lead and headed a completely new podium. Read the source-bounded HLRN Season 1, Race 13…",
+      "canonical": "https://shokkergroup.github.io/hlrn/central/upQfchHHEJw/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/upQfchHHEJw.jpg",
+      "spaRoute": "#/central/upQfchHHEJw",
+      "schemaTypes": [
+        "Article",
+        "BreadcrumbList",
+        "CollectionPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "SportsEvent",
+        "WebPage"
+      ]
+    },
+    {
+      "file": "driver/aaron-rowland/index.html",
+      "type": "driver",
+      "id": "aaron-rowland",
+      "title": "Aaron Rowland | HLRN Driver Dossier",
+      "description": "Aaron Rowland's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/aaron-rowland/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/aaron-rowland.jpg",
+      "spaRoute": "#/driver/aaron-rowland",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/aaron-smith/index.html",
+      "type": "driver",
+      "id": "aaron-smith",
+      "title": "Aaron Smith | HLRN Driver Dossier",
+      "description": "Aaron Smith's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/aaron-smith/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/aaron-smith.jpg",
+      "spaRoute": "#/driver/aaron-smith",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/aaron-trebig/index.html",
+      "type": "driver",
+      "id": "aaron-trebig",
+      "title": "Aaron Trebig | HLRN Driver Dossier",
+      "description": "Aaron Trebig's source-linked HLRN dossier: 8 official broadcast files, 0 Central editions, and 2 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/aaron-trebig/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/aaron-trebig.jpg",
+      "spaRoute": "#/driver/aaron-trebig",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/aldo-nolle/index.html",
+      "type": "driver",
+      "id": "aldo-nolle",
+      "title": "Aldo Nolle | HLRN Driver Dossier",
+      "description": "Aldo Nolle's source-linked HLRN dossier: 1 official broadcast files, 1 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/aldo-nolle/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/aldo-nolle.jpg",
+      "spaRoute": "#/driver/aldo-nolle",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/alex-galloway/index.html",
+      "type": "driver",
+      "id": "alex-galloway",
+      "title": "Alex Galloway | HLRN Driver Dossier",
+      "description": "Alex Galloway's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/alex-galloway/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/alex-galloway.jpg",
+      "spaRoute": "#/driver/alex-galloway",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/alex-leeball/index.html",
+      "type": "driver",
+      "id": "alex-leeball",
+      "title": "Alex Leeball | HLRN Driver Dossier",
+      "description": "Alex Leeball's source-linked HLRN dossier: 10 official broadcast files, 1 Central editions, and 4 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/alex-leeball/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/alex-leeball.jpg",
+      "spaRoute": "#/driver/alex-leeball",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/alston-baptiste/index.html",
+      "type": "driver",
+      "id": "alston-baptiste",
+      "title": "Alston Baptiste | HLRN Driver Dossier",
+      "description": "Alston Baptiste's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/alston-baptiste/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/alston-baptiste.jpg",
+      "spaRoute": "#/driver/alston-baptiste",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/andrew-ford/index.html",
+      "type": "driver",
+      "id": "andrew-ford",
+      "title": "Andrew Ford | HLRN Driver Dossier",
+      "description": "Andrew Ford's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/andrew-ford/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/andrew-ford.jpg",
+      "spaRoute": "#/driver/andrew-ford",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/ashley-webb/index.html",
+      "type": "driver",
+      "id": "ashley-webb",
+      "title": "Ashley Webb | HLRN Driver Dossier",
+      "description": "Ashley Webb's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/ashley-webb/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/ashley-webb.jpg",
+      "spaRoute": "#/driver/ashley-webb",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/aubrey-thompson/index.html",
+      "type": "driver",
+      "id": "aubrey-thompson",
+      "title": "Aubrey Thompson | HLRN Driver Dossier",
+      "description": "Aubrey Thompson's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/aubrey-thompson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/aubrey-thompson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/benjamin-richards/index.html",
+      "type": "driver",
+      "id": "benjamin-richards",
+      "title": "Benjamin Richards | HLRN Driver Dossier",
+      "description": "Benjamin Richards's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/benjamin-richards/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/benjamin-richards.jpg",
+      "spaRoute": "#/driver/benjamin-richards",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/bill-daniels/index.html",
+      "type": "driver",
+      "id": "bill-daniels",
+      "title": "Bill Daniels | HLRN Driver Dossier",
+      "description": "Bill Daniels's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/bill-daniels/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/bill-daniels.jpg",
+      "spaRoute": "#/driver/bill-daniels",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/bill-walker/index.html",
+      "type": "driver",
+      "id": "bill-walker",
+      "title": "Bill Walker | HLRN Driver Dossier",
+      "description": "Bill Walker's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/bill-walker/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/bill-walker.jpg",
+      "spaRoute": "#/driver/bill-walker",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/billy-rickett/index.html",
+      "type": "driver",
+      "id": "billy-rickett",
+      "title": "Billy Rickett | HLRN Driver Dossier",
+      "description": "Billy Rickett's source-linked HLRN dossier: 3 official broadcast files, 0 Central editions, and 3 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/billy-rickett/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/billy-rickett.jpg",
+      "spaRoute": "#/driver/billy-rickett",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/blake-wakowski/index.html",
+      "type": "driver",
+      "id": "blake-wakowski",
+      "title": "Blake Wakowski | HLRN Driver Dossier",
+      "description": "Blake Wakowski's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/blake-wakowski/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/blake-wakowski.jpg",
+      "spaRoute": "#/driver/blake-wakowski",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/bob-elder/index.html",
+      "type": "driver",
+      "id": "bob-elder",
+      "title": "Bob Elder | HLRN Driver Dossier",
+      "description": "Bob Elder's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/bob-elder/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/bob-elder",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/bobby-dale/index.html",
+      "type": "driver",
+      "id": "bobby-dale",
+      "title": "Bobby Dale | HLRN Driver Dossier",
+      "description": "Bobby Dale's source-linked HLRN dossier: 3 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/bobby-dale/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/bobby-dale",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/brandon-bikey/index.html",
+      "type": "driver",
+      "id": "brandon-bikey",
+      "title": "Brandon Bikey | HLRN Driver Dossier",
+      "description": "Brandon Bikey's source-linked HLRN dossier: 9 official broadcast files, 3 Central editions, and 13 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/brandon-bikey/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/brandon-bikey.jpg",
+      "spaRoute": "#/driver/brandon-bikey",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/brandon-hinton/index.html",
+      "type": "driver",
+      "id": "brandon-hinton",
+      "title": "Brandon Hinton | HLRN Driver Dossier",
+      "description": "Brandon Hinton's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 3 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/brandon-hinton/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/brandon-hinton.jpg",
+      "spaRoute": "#/driver/brandon-hinton",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/brandon-showers/index.html",
+      "type": "driver",
+      "id": "brandon-showers",
+      "title": "Brandon Showers | HLRN Driver Dossier",
+      "description": "Brandon Showers's source-linked HLRN dossier: 15 official broadcast files, 2 Central editions, and 13 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/brandon-showers/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/brandon-showers.jpg",
+      "spaRoute": "#/driver/brandon-showers",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/brandon-taylor/index.html",
+      "type": "driver",
+      "id": "brandon-taylor",
+      "title": "Brandon Taylor | HLRN Driver Dossier",
+      "description": "Brandon Taylor's source-linked HLRN dossier: 3 official broadcast files, 1 Central editions, and 3 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/brandon-taylor/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/brandon-taylor.jpg",
+      "spaRoute": "#/driver/brandon-taylor",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/brent-thompson/index.html",
+      "type": "driver",
+      "id": "brent-thompson",
+      "title": "Brent Thompson | HLRN Driver Dossier",
+      "description": "Brent Thompson's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/brent-thompson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/brent-thompson.jpg",
+      "spaRoute": "#/driver/brent-thompson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/brian-duncan/index.html",
+      "type": "driver",
+      "id": "brian-duncan",
+      "title": "Brian Duncan | HLRN Driver Dossier",
+      "description": "Brian Duncan's source-linked HLRN dossier: 5 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/brian-duncan/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/brian-duncan.jpg",
+      "spaRoute": "#/driver/brian-duncan",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/brian-hayes/index.html",
+      "type": "driver",
+      "id": "brian-hayes",
+      "title": "Brian Hayes | HLRN Driver Dossier",
+      "description": "Brian Hayes's source-linked HLRN dossier: 14 official broadcast files, 0 Central editions, and 5 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/brian-hayes/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/brian-hayes.jpg",
+      "spaRoute": "#/driver/brian-hayes",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/brian-hebert/index.html",
+      "type": "driver",
+      "id": "brian-hebert",
+      "title": "Brian Hebert | HLRN Driver Dossier",
+      "description": "Brian Hebert's source-linked HLRN dossier: 13 official broadcast files, 2 Central editions, and 11 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/brian-hebert/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/brian-hebert.jpg",
+      "spaRoute": "#/driver/brian-hebert",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/brian-hennings/index.html",
+      "type": "driver",
+      "id": "brian-hennings",
+      "title": "Brian Hennings | HLRN Driver Dossier",
+      "description": "Brian Hennings's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 2 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/brian-hennings/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/brian-hennings.jpg",
+      "spaRoute": "#/driver/brian-hennings",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/brittany-mitchell/index.html",
+      "type": "driver",
+      "id": "brittany-mitchell",
+      "title": "Brittany Mitchell | HLRN Driver Dossier",
+      "description": "Brittany Mitchell's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/brittany-mitchell/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/brittany-mitchell",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/brock-piper/index.html",
+      "type": "driver",
+      "id": "brock-piper",
+      "title": "Brock Piper | HLRN Driver Dossier",
+      "description": "Brock Piper's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/brock-piper/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/brock-piper.jpg",
+      "spaRoute": "#/driver/brock-piper",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/bryce-hinton/index.html",
+      "type": "driver",
+      "id": "bryce-hinton",
+      "title": "Bryce Hinton | HLRN Driver Dossier",
+      "description": "Bryce Hinton's source-linked HLRN dossier: 10 official broadcast files, 4 Central editions, and 29 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/bryce-hinton/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/bryce-hinton.jpg",
+      "spaRoute": "#/driver/bryce-hinton",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/bryson-black/index.html",
+      "type": "driver",
+      "id": "bryson-black",
+      "title": "Bryson Black | HLRN Driver Dossier",
+      "description": "Bryson Black's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/bryson-black/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/bryson-black.jpg",
+      "spaRoute": "#/driver/bryson-black",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/bryson-myers/index.html",
+      "type": "driver",
+      "id": "bryson-myers",
+      "title": "Bryson Myers | HLRN Driver Dossier",
+      "description": "Bryson Myers's source-linked HLRN dossier: 2 official broadcast files, 1 Central editions, and 9 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/bryson-myers/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/bryson-myers.jpg",
+      "spaRoute": "#/driver/bryson-myers",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/caleb-smith/index.html",
+      "type": "driver",
+      "id": "caleb-smith",
+      "title": "Caleb Smith | HLRN Driver Dossier",
+      "description": "Caleb Smith's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 2 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/caleb-smith/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/caleb-smith.jpg",
+      "spaRoute": "#/driver/caleb-smith",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/carl-williamson/index.html",
+      "type": "driver",
+      "id": "carl-williamson",
+      "title": "Carl Williamson | HLRN Driver Dossier",
+      "description": "Carl Williamson's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/carl-williamson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/carl-williamson.jpg",
+      "spaRoute": "#/driver/carl-williamson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/carlos-andrade/index.html",
+      "type": "driver",
+      "id": "carlos-andrade",
+      "title": "Carlos Andrade | HLRN Driver Dossier",
+      "description": "Carlos Andrade's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/carlos-andrade/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/carlos-andrade.jpg",
+      "spaRoute": "#/driver/carlos-andrade",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/carson-rowland/index.html",
+      "type": "driver",
+      "id": "carson-rowland",
+      "title": "Carson Rowland | HLRN Driver Dossier",
+      "description": "Carson Rowland's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/carson-rowland/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/carson-rowland.jpg",
+      "spaRoute": "#/driver/carson-rowland",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/carter-smith/index.html",
+      "type": "driver",
+      "id": "carter-smith",
+      "title": "Carter Smith | HLRN Driver Dossier",
+      "description": "Carter Smith's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/carter-smith/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/carter-smith.jpg",
+      "spaRoute": "#/driver/carter-smith",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/chad-oxidine/index.html",
+      "type": "driver",
+      "id": "chad-oxidine",
+      "title": "Chad Oxidine | HLRN Driver Dossier",
+      "description": "Chad Oxidine's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/chad-oxidine/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/chad-oxidine.jpg",
+      "spaRoute": "#/driver/chad-oxidine",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/chase-rockford/index.html",
+      "type": "driver",
+      "id": "chase-rockford",
+      "title": "Chase Rockford | HLRN Driver Dossier",
+      "description": "Chase Rockford's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/chase-rockford/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/chase-rockford.jpg",
+      "spaRoute": "#/driver/chase-rockford",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/chris-james/index.html",
+      "type": "driver",
+      "id": "chris-james",
+      "title": "Chris James | HLRN Driver Dossier",
+      "description": "Chris James's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 2 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/chris-james/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/chris-james.jpg",
+      "spaRoute": "#/driver/chris-james",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/chris-vincent/index.html",
+      "type": "driver",
+      "id": "chris-vincent",
+      "title": "Chris Vincent | HLRN Driver Dossier",
+      "description": "Chris Vincent's source-linked HLRN dossier: 3 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/chris-vincent/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/chris-vincent.jpg",
+      "spaRoute": "#/driver/chris-vincent",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/christian-rhodes/index.html",
+      "type": "driver",
+      "id": "christian-rhodes",
+      "title": "Christian Rhodes | HLRN Driver Dossier",
+      "description": "Christian Rhodes's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/christian-rhodes/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/christian-rhodes",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/christian-tinkler/index.html",
+      "type": "driver",
+      "id": "christian-tinkler",
+      "title": "Christian Tinkler | HLRN Driver Dossier",
+      "description": "Christian Tinkler's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/christian-tinkler/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/christian-tinkler.jpg",
+      "spaRoute": "#/driver/christian-tinkler",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/chuck-fletcher/index.html",
+      "type": "driver",
+      "id": "chuck-fletcher",
+      "title": "Chuck Fletcher | HLRN Driver Dossier",
+      "description": "Chuck Fletcher's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/chuck-fletcher/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/chuck-fletcher.jpg",
+      "spaRoute": "#/driver/chuck-fletcher",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/clay-sartine/index.html",
+      "type": "driver",
+      "id": "clay-sartine",
+      "title": "Clay Sartine | HLRN Driver Dossier",
+      "description": "Clay Sartine's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/clay-sartine/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/clay-sartine.jpg",
+      "spaRoute": "#/driver/clay-sartine",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/cody-neagles/index.html",
+      "type": "driver",
+      "id": "cody-neagles",
+      "title": "Cody Neagles | HLRN Driver Dossier",
+      "description": "Cody Neagles's source-linked HLRN dossier: 3 official broadcast files, 0 Central editions, and 4 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/cody-neagles/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/cody-neagles.jpg",
+      "spaRoute": "#/driver/cody-neagles",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/cole-williams/index.html",
+      "type": "driver",
+      "id": "cole-williams",
+      "title": "Cole Williams | HLRN Driver Dossier",
+      "description": "Cole Williams's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/cole-williams/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/cole-williams.jpg",
+      "spaRoute": "#/driver/cole-williams",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/connor-papowell/index.html",
+      "type": "driver",
+      "id": "connor-papowell",
+      "title": "Connor Papowell | HLRN Driver Dossier",
+      "description": "Connor Papowell's source-linked HLRN dossier: 2 official broadcast files, 1 Central editions, and 3 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/connor-papowell/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/connor-papowell.jpg",
+      "spaRoute": "#/driver/connor-papowell",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/connor-phillips/index.html",
+      "type": "driver",
+      "id": "connor-phillips",
+      "title": "Connor Phillips | HLRN Driver Dossier",
+      "description": "Connor Phillips's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/connor-phillips/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/connor-phillips",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/cory-cook/index.html",
+      "type": "driver",
+      "id": "cory-cook",
+      "title": "Cory Cook | HLRN Driver Dossier",
+      "description": "Cory Cook's source-linked HLRN dossier: 17 official broadcast files, 4 Central editions, and 30 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/cory-cook/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/cory-cook.jpg",
+      "spaRoute": "#/driver/cory-cook",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/craig-martin/index.html",
+      "type": "driver",
+      "id": "craig-martin",
+      "title": "Craig Martin | HLRN Driver Dossier",
+      "description": "Craig Martin's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 5 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/craig-martin/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/craig-martin.jpg",
+      "spaRoute": "#/driver/craig-martin",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/craig-rowe/index.html",
+      "type": "driver",
+      "id": "craig-rowe",
+      "title": "Craig Rowe | HLRN Driver Dossier",
+      "description": "Craig Rowe's source-linked HLRN dossier: 16 official broadcast files, 3 Central editions, and 10 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/craig-rowe/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/craig-rowe.jpg",
+      "spaRoute": "#/driver/craig-rowe",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/dale-herman/index.html",
+      "type": "driver",
+      "id": "dale-herman",
+      "title": "Dale Herman | HLRN Driver Dossier",
+      "description": "Dale Herman's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/dale-herman/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/dale-herman.jpg",
+      "spaRoute": "#/driver/dale-herman",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/dan-whit/index.html",
+      "type": "driver",
+      "id": "dan-whit",
+      "title": "Dan Whit | HLRN Driver Dossier",
+      "description": "Dan Whit's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/dan-whit/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/dan-whit.jpg",
+      "spaRoute": "#/driver/dan-whit",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/daniel-owen/index.html",
+      "type": "driver",
+      "id": "daniel-owen",
+      "title": "Daniel Owen | HLRN Driver Dossier",
+      "description": "Daniel Owen's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/daniel-owen/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/daniel-owen",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/daryl-sabalos/index.html",
+      "type": "driver",
+      "id": "daryl-sabalos",
+      "title": "Daryl Sabalos | HLRN Driver Dossier",
+      "description": "Daryl Sabalos's source-linked HLRN dossier: 6 official broadcast files, 0 Central editions, and 3 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/daryl-sabalos/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/daryl-sabalos.jpg",
+      "spaRoute": "#/driver/daryl-sabalos",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/daryl-temple/index.html",
+      "type": "driver",
+      "id": "daryl-temple",
+      "title": "Daryl Temple | HLRN Driver Dossier",
+      "description": "Daryl Temple's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/daryl-temple/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/daryl-temple.jpg",
+      "spaRoute": "#/driver/daryl-temple",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/dave-schutt/index.html",
+      "type": "driver",
+      "id": "dave-schutt",
+      "title": "Dave Schutt | HLRN Driver Dossier",
+      "description": "Dave Schutt's source-linked HLRN dossier: 8 official broadcast files, 0 Central editions, and 6 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/dave-schutt/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/dave-schutt.jpg",
+      "spaRoute": "#/driver/dave-schutt",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/david-applegate/index.html",
+      "type": "driver",
+      "id": "david-applegate",
+      "title": "David Applegate | HLRN Driver Dossier",
+      "description": "David Applegate's source-linked HLRN dossier: 2 official broadcast files, 1 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/david-applegate/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/david-applegate.jpg",
+      "spaRoute": "#/driver/david-applegate",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/david-goldstein/index.html",
+      "type": "driver",
+      "id": "david-goldstein",
+      "title": "David Goldstein | HLRN Driver Dossier",
+      "description": "David Goldstein's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/david-goldstein/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/david-goldstein.jpg",
+      "spaRoute": "#/driver/david-goldstein",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/david-salter/index.html",
+      "type": "driver",
+      "id": "david-salter",
+      "title": "David Salter | HLRN Driver Dossier",
+      "description": "David Salter's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/david-salter/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/david-salter.jpg",
+      "spaRoute": "#/driver/david-salter",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/dennis-misuraca/index.html",
+      "type": "driver",
+      "id": "dennis-misuraca",
+      "title": "Dennis Misuraca | HLRN Driver Dossier",
+      "description": "Dennis Misuraca's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/dennis-misuraca/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/dennis-misuraca.jpg",
+      "spaRoute": "#/driver/dennis-misuraca",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/derek-jacobs/index.html",
+      "type": "driver",
+      "id": "derek-jacobs",
+      "title": "Derek Jacobs | HLRN Driver Dossier",
+      "description": "Derek Jacobs's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/derek-jacobs/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/derek-jacobs.jpg",
+      "spaRoute": "#/driver/derek-jacobs",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/derek-sers/index.html",
+      "type": "driver",
+      "id": "derek-sers",
+      "title": "Derek Sers | HLRN Driver Dossier",
+      "description": "Derek Sers's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/derek-sers/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/derek-sers.jpg",
+      "spaRoute": "#/driver/derek-sers",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/donald-stewart/index.html",
+      "type": "driver",
+      "id": "donald-stewart",
+      "title": "Donald Stewart | HLRN Driver Dossier",
+      "description": "Donald Stewart's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/donald-stewart/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/donald-stewart.jpg",
+      "spaRoute": "#/driver/donald-stewart",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/donny-beach/index.html",
+      "type": "driver",
+      "id": "donny-beach",
+      "title": "Donny Beach | HLRN Driver Dossier",
+      "description": "Donny Beach's source-linked HLRN dossier: 6 official broadcast files, 0 Central editions, and 3 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/donny-beach/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/donny-beach.jpg",
+      "spaRoute": "#/driver/donny-beach",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/doug-smith/index.html",
+      "type": "driver",
+      "id": "doug-smith",
+      "title": "Doug Smith | HLRN Driver Dossier",
+      "description": "Doug Smith's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/doug-smith/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/doug-smith.jpg",
+      "spaRoute": "#/driver/doug-smith",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/drew-warren/index.html",
+      "type": "driver",
+      "id": "drew-warren",
+      "title": "Drew Warren | HLRN Driver Dossier",
+      "description": "Drew Warren's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/drew-warren/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/drew-warren.jpg",
+      "spaRoute": "#/driver/drew-warren",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/dwayne-fertick/index.html",
+      "type": "driver",
+      "id": "dwayne-fertick",
+      "title": "Dwayne Fertick | HLRN Driver Dossier",
+      "description": "Dwayne Fertick's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/dwayne-fertick/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/dwayne-fertick.jpg",
+      "spaRoute": "#/driver/dwayne-fertick",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/dylan-jones/index.html",
+      "type": "driver",
+      "id": "dylan-jones",
+      "title": "Dylan Jones | HLRN Driver Dossier",
+      "description": "Dylan Jones's source-linked HLRN dossier: 2 official broadcast files, 2 Central editions, and 4 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/dylan-jones/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/dylan-jones.jpg",
+      "spaRoute": "#/driver/dylan-jones",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/dylan-row/index.html",
+      "type": "driver",
+      "id": "dylan-row",
+      "title": "Dylan Row | HLRN Driver Dossier",
+      "description": "Dylan Row's source-linked HLRN dossier: 2 official broadcast files, 1 Central editions, and 2 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/dylan-row/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/dylan-row.jpg",
+      "spaRoute": "#/driver/dylan-row",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/dylan-smith/index.html",
+      "type": "driver",
+      "id": "dylan-smith",
+      "title": "Dylan Smith | HLRN Driver Dossier",
+      "description": "Dylan Smith's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/dylan-smith/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/dylan-smith.jpg",
+      "spaRoute": "#/driver/dylan-smith",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/easton-collins/index.html",
+      "type": "driver",
+      "id": "easton-collins",
+      "title": "Easton Collins | HLRN Driver Dossier",
+      "description": "Easton Collins's source-linked HLRN dossier: 9 official broadcast files, 0 Central editions, and 3 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/easton-collins/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/easton-collins.jpg",
+      "spaRoute": "#/driver/easton-collins",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/edward-fielder/index.html",
+      "type": "driver",
+      "id": "edward-fielder",
+      "title": "Edward Fielder | HLRN Driver Dossier",
+      "description": "Edward Fielder's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/edward-fielder/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/edward-fielder.jpg",
+      "spaRoute": "#/driver/edward-fielder",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/eli-zallo/index.html",
+      "type": "driver",
+      "id": "eli-zallo",
+      "title": "Eli Zallo | HLRN Driver Dossier",
+      "description": "Eli Zallo's source-linked HLRN dossier: 6 official broadcast files, 0 Central editions, and 5 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/eli-zallo/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/eli-zallo.jpg",
+      "spaRoute": "#/driver/eli-zallo",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/eric-greer/index.html",
+      "type": "driver",
+      "id": "eric-greer",
+      "title": "Eric Greer | HLRN Driver Dossier",
+      "description": "Eric Greer's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/eric-greer/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/eric-greer.jpg",
+      "spaRoute": "#/driver/eric-greer",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/eric-hayden/index.html",
+      "type": "driver",
+      "id": "eric-hayden",
+      "title": "Eric Hayden | HLRN Driver Dossier",
+      "description": "Eric Hayden's source-linked HLRN dossier: 20 official broadcast files, 1 Central editions, and 9 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/eric-hayden/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/eric-hayden.jpg",
+      "spaRoute": "#/driver/eric-hayden",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/eric-rodman/index.html",
+      "type": "driver",
+      "id": "eric-rodman",
+      "title": "Eric Rodman | HLRN Driver Dossier",
+      "description": "Eric Rodman's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/eric-rodman/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/eric-rodman.jpg",
+      "spaRoute": "#/driver/eric-rodman",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/ethan-holland/index.html",
+      "type": "driver",
+      "id": "ethan-holland",
+      "title": "Ethan Holland | HLRN Driver Dossier",
+      "description": "Ethan Holland's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/ethan-holland/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/ethan-holland.jpg",
+      "spaRoute": "#/driver/ethan-holland",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/ethan-moreno/index.html",
+      "type": "driver",
+      "id": "ethan-moreno",
+      "title": "Ethan Moreno | HLRN Driver Dossier",
+      "description": "Ethan Moreno's source-linked HLRN dossier: 13 official broadcast files, 5 Central editions, and 28 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/ethan-moreno/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/ethan-moreno.jpg",
+      "spaRoute": "#/driver/ethan-moreno",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/evan-perry/index.html",
+      "type": "driver",
+      "id": "evan-perry",
+      "title": "Evan Perry | HLRN Driver Dossier",
+      "description": "Evan Perry's source-linked HLRN dossier: 18 official broadcast files, 2 Central editions, and 13 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/evan-perry/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/evan-perry.jpg",
+      "spaRoute": "#/driver/evan-perry",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/francisco-bacayo/index.html",
+      "type": "driver",
+      "id": "francisco-bacayo",
+      "title": "Francisco Bacayo | HLRN Driver Dossier",
+      "description": "Francisco Bacayo's source-linked HLRN dossier: 3 official broadcast files, 0 Central editions, and 10 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/francisco-bacayo/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/francisco-bacayo.jpg",
+      "spaRoute": "#/driver/francisco-bacayo",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/fred-pennington/index.html",
+      "type": "driver",
+      "id": "fred-pennington",
+      "title": "Fred Pennington | HLRN Driver Dossier",
+      "description": "Fred Pennington's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/fred-pennington/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/fred-pennington.jpg",
+      "spaRoute": "#/driver/fred-pennington",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/grant-wesley/index.html",
+      "type": "driver",
+      "id": "grant-wesley",
+      "title": "Grant Wesley | HLRN Driver Dossier",
+      "description": "Grant Wesley's source-linked HLRN dossier: 8 official broadcast files, 2 Central editions, and 8 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/grant-wesley/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/grant-wesley.jpg",
+      "spaRoute": "#/driver/grant-wesley",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/greg-piller/index.html",
+      "type": "driver",
+      "id": "greg-piller",
+      "title": "Greg Piller | HLRN Driver Dossier",
+      "description": "Greg Piller's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/greg-piller/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/greg-piller.jpg",
+      "spaRoute": "#/driver/greg-piller",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/grim-mason/index.html",
+      "type": "driver",
+      "id": "grim-mason",
+      "title": "Grim Mason | HLRN Driver Dossier",
+      "description": "Grim Mason's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/grim-mason/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/grim-mason.jpg",
+      "spaRoute": "#/driver/grim-mason",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/hunter-hawks/index.html",
+      "type": "driver",
+      "id": "hunter-hawks",
+      "title": "Hunter Hawks | HLRN Driver Dossier",
+      "description": "Hunter Hawks's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/hunter-hawks/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/hunter-hawks.jpg",
+      "spaRoute": "#/driver/hunter-hawks",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/hunter-welch/index.html",
+      "type": "driver",
+      "id": "hunter-welch",
+      "title": "Hunter Welch | HLRN Driver Dossier",
+      "description": "Hunter Welch's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/hunter-welch/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/hunter-welch.jpg",
+      "spaRoute": "#/driver/hunter-welch",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/hunter-wellborn/index.html",
+      "type": "driver",
+      "id": "hunter-wellborn",
+      "title": "Hunter Wellborn | HLRN Driver Dossier",
+      "description": "Hunter Wellborn's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/hunter-wellborn/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/hunter-wellborn.jpg",
+      "spaRoute": "#/driver/hunter-wellborn",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/isabel-pena/index.html",
+      "type": "driver",
+      "id": "isabel-pena",
+      "title": "Isabel Pena | HLRN Driver Dossier",
+      "description": "Isabel Pena's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 2 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/isabel-pena/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/isabel-pena.jpg",
+      "spaRoute": "#/driver/isabel-pena",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jackson-connie/index.html",
+      "type": "driver",
+      "id": "jackson-connie",
+      "title": "Jackson Connie | HLRN Driver Dossier",
+      "description": "Jackson Connie's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jackson-connie/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jackson-connie.jpg",
+      "spaRoute": "#/driver/jackson-connie",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jacob-brown/index.html",
+      "type": "driver",
+      "id": "jacob-brown",
+      "title": "Jacob Brown | HLRN Driver Dossier",
+      "description": "Jacob Brown's source-linked HLRN dossier: 5 official broadcast files, 2 Central editions, and 11 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jacob-brown/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jacob-brown.jpg",
+      "spaRoute": "#/driver/jacob-brown",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jacob-dawson/index.html",
+      "type": "driver",
+      "id": "jacob-dawson",
+      "title": "Jacob Dawson | HLRN Driver Dossier",
+      "description": "Jacob Dawson's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jacob-dawson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jacob-dawson.jpg",
+      "spaRoute": "#/driver/jacob-dawson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jacob-johnson/index.html",
+      "type": "driver",
+      "id": "jacob-johnson",
+      "title": "Jacob Johnson | HLRN Driver Dossier",
+      "description": "Jacob Johnson's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jacob-johnson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jacob-johnson.jpg",
+      "spaRoute": "#/driver/jacob-johnson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jacob-major/index.html",
+      "type": "driver",
+      "id": "jacob-major",
+      "title": "Jacob Major | HLRN Driver Dossier",
+      "description": "Jacob Major's source-linked HLRN dossier: 6 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jacob-major/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jacob-major.jpg",
+      "spaRoute": "#/driver/jacob-major",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jacob-weedman/index.html",
+      "type": "driver",
+      "id": "jacob-weedman",
+      "title": "Jacob Weedman | HLRN Driver Dossier",
+      "description": "Jacob Weedman's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jacob-weedman/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jacob-weedman.jpg",
+      "spaRoute": "#/driver/jacob-weedman",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jaden-porter/index.html",
+      "type": "driver",
+      "id": "jaden-porter",
+      "title": "Jaden Porter | HLRN Driver Dossier",
+      "description": "Jaden Porter's source-linked HLRN dossier: 4 official broadcast files, 3 Central editions, and 9 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jaden-porter/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jaden-porter.jpg",
+      "spaRoute": "#/driver/jaden-porter",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/james-hardenbrook/index.html",
+      "type": "driver",
+      "id": "james-hardenbrook",
+      "title": "James Hardenbrook | HLRN Driver Dossier",
+      "description": "James Hardenbrook's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/james-hardenbrook/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/james-hardenbrook.jpg",
+      "spaRoute": "#/driver/james-hardenbrook",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/james-jepsen/index.html",
+      "type": "driver",
+      "id": "james-jepsen",
+      "title": "James Jepsen | HLRN Driver Dossier",
+      "description": "James Jepsen's source-linked HLRN dossier: 9 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/james-jepsen/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/james-jepsen.jpg",
+      "spaRoute": "#/driver/james-jepsen",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/james-mendez/index.html",
+      "type": "driver",
+      "id": "james-mendez",
+      "title": "James Mendez | HLRN Driver Dossier",
+      "description": "James Mendez's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 2 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/james-mendez/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/james-mendez.jpg",
+      "spaRoute": "#/driver/james-mendez",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/james-ringo/index.html",
+      "type": "driver",
+      "id": "james-ringo",
+      "title": "James Ringo | HLRN Driver Dossier",
+      "description": "James Ringo's source-linked HLRN dossier: 3 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/james-ringo/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/james-ringo.jpg",
+      "spaRoute": "#/driver/james-ringo",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/james-smith/index.html",
+      "type": "driver",
+      "id": "james-smith",
+      "title": "James Smith | HLRN Driver Dossier",
+      "description": "James Smith's source-linked HLRN dossier: 10 official broadcast files, 2 Central editions, and 3 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/james-smith/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/james-smith.jpg",
+      "spaRoute": "#/driver/james-smith",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/james-wood/index.html",
+      "type": "driver",
+      "id": "james-wood",
+      "title": "James Wood | HLRN Driver Dossier",
+      "description": "James Wood's source-linked HLRN dossier: 3 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/james-wood/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/james-wood.jpg",
+      "spaRoute": "#/driver/james-wood",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jamie-shaw/index.html",
+      "type": "driver",
+      "id": "jamie-shaw",
+      "title": "Jamie Shaw | HLRN Driver Dossier",
+      "description": "Jamie Shaw's source-linked HLRN dossier: 5 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jamie-shaw/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jamie-shaw.jpg",
+      "spaRoute": "#/driver/jamie-shaw",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jared-philpot/index.html",
+      "type": "driver",
+      "id": "jared-philpot",
+      "title": "Jared Philpot | HLRN Driver Dossier",
+      "description": "Jared Philpot's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 3 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jared-philpot/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jared-philpot.jpg",
+      "spaRoute": "#/driver/jared-philpot",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jason-berg/index.html",
+      "type": "driver",
+      "id": "jason-berg",
+      "title": "Jason Berg | HLRN Driver Dossier",
+      "description": "Jason Berg's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jason-berg/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jason-berg.jpg",
+      "spaRoute": "#/driver/jason-berg",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jason-branch/index.html",
+      "type": "driver",
+      "id": "jason-branch",
+      "title": "Jason Branch | HLRN Driver Dossier",
+      "description": "Jason Branch's source-linked HLRN dossier: 5 official broadcast files, 1 Central editions, and 5 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jason-branch/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jason-branch.jpg",
+      "spaRoute": "#/driver/jason-branch",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jason-bright/index.html",
+      "type": "driver",
+      "id": "jason-bright",
+      "title": "Jason Bright | HLRN Driver Dossier",
+      "description": "Jason Bright's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jason-bright/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/jason-bright",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jason-russo/index.html",
+      "type": "driver",
+      "id": "jason-russo",
+      "title": "Jason Russo | HLRN Driver Dossier",
+      "description": "Jason Russo's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jason-russo/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jason-russo.jpg",
+      "spaRoute": "#/driver/jason-russo",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jason-stevenson/index.html",
+      "type": "driver",
+      "id": "jason-stevenson",
+      "title": "Jason Stevenson | HLRN Driver Dossier",
+      "description": "Jason Stevenson's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jason-stevenson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jason-stevenson.jpg",
+      "spaRoute": "#/driver/jason-stevenson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jayden-mcgowan/index.html",
+      "type": "driver",
+      "id": "jayden-mcgowan",
+      "title": "Jayden McGowan | HLRN Driver Dossier",
+      "description": "Jayden McGowan's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jayden-mcgowan/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jayden-mcgowan.jpg",
+      "spaRoute": "#/driver/jayden-mcgowan",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jeff-hedges/index.html",
+      "type": "driver",
+      "id": "jeff-hedges",
+      "title": "Jeff Hedges | HLRN Driver Dossier",
+      "description": "Jeff Hedges's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jeff-hedges/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/jeff-hedges",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jensen-kase/index.html",
+      "type": "driver",
+      "id": "jensen-kase",
+      "title": "Jensen Kase | HLRN Driver Dossier",
+      "description": "Jensen Kase's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jensen-kase/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jensen-kase.jpg",
+      "spaRoute": "#/driver/jensen-kase",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jeremy-james/index.html",
+      "type": "driver",
+      "id": "jeremy-james",
+      "title": "Jeremy James | HLRN Driver Dossier",
+      "description": "Jeremy James's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jeremy-james/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jeremy-james.jpg",
+      "spaRoute": "#/driver/jeremy-james",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jeremy-jeffries/index.html",
+      "type": "driver",
+      "id": "jeremy-jeffries",
+      "title": "Jeremy Jeffries | HLRN Driver Dossier",
+      "description": "Jeremy Jeffries's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jeremy-jeffries/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jeremy-jeffries.jpg",
+      "spaRoute": "#/driver/jeremy-jeffries",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jerry-bergeron/index.html",
+      "type": "driver",
+      "id": "jerry-bergeron",
+      "title": "Jerry Bergeron | HLRN Driver Dossier",
+      "description": "Jerry Bergeron's source-linked HLRN dossier: 10 official broadcast files, 1 Central editions, and 5 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jerry-bergeron/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jerry-bergeron.jpg",
+      "spaRoute": "#/driver/jerry-bergeron",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jerry-fassett/index.html",
+      "type": "driver",
+      "id": "jerry-fassett",
+      "title": "Jerry Fassett | HLRN Driver Dossier",
+      "description": "Jerry Fassett's source-linked HLRN dossier: 19 official broadcast files, 1 Central editions, and 20 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jerry-fassett/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jerry-fassett.jpg",
+      "spaRoute": "#/driver/jerry-fassett",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jim-duda/index.html",
+      "type": "driver",
+      "id": "jim-duda",
+      "title": "Jim Duda | HLRN Driver Dossier",
+      "description": "Jim Duda's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jim-duda/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jim-duda.jpg",
+      "spaRoute": "#/driver/jim-duda",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jim-sagredo/index.html",
+      "type": "driver",
+      "id": "jim-sagredo",
+      "title": "Jim Sagredo | HLRN Driver Dossier",
+      "description": "Jim Sagredo's source-linked HLRN dossier: 18 official broadcast files, 0 Central editions, and 10 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jim-sagredo/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jim-sagredo.jpg",
+      "spaRoute": "#/driver/jim-sagredo",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/joe-bonner/index.html",
+      "type": "driver",
+      "id": "joe-bonner",
+      "title": "Joe Bonner | HLRN Driver Dossier",
+      "description": "Joe Bonner's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/joe-bonner/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/joe-bonner.jpg",
+      "spaRoute": "#/driver/joe-bonner",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/joe-manila/index.html",
+      "type": "driver",
+      "id": "joe-manila",
+      "title": "Joe Manila | HLRN Driver Dossier",
+      "description": "Joe Manila's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/joe-manila/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/joe-manila.jpg",
+      "spaRoute": "#/driver/joe-manila",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/joe-quan/index.html",
+      "type": "driver",
+      "id": "joe-quan",
+      "title": "Joe Quan | HLRN Driver Dossier",
+      "description": "Joe Quan's source-linked HLRN dossier: 6 official broadcast files, 1 Central editions, and 8 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/joe-quan/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/joe-quan.jpg",
+      "spaRoute": "#/driver/joe-quan",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/joe-stafford/index.html",
+      "type": "driver",
+      "id": "joe-stafford",
+      "title": "Joe Stafford | HLRN Driver Dossier",
+      "description": "Joe Stafford's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/joe-stafford/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/joe-stafford.jpg",
+      "spaRoute": "#/driver/joe-stafford",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/joe-wells/index.html",
+      "type": "driver",
+      "id": "joe-wells",
+      "title": "Joe Wells | HLRN Driver Dossier",
+      "description": "Joe Wells's source-linked HLRN dossier: 6 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/joe-wells/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/joe-wells.jpg",
+      "spaRoute": "#/driver/joe-wells",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/john-colmorgen/index.html",
+      "type": "driver",
+      "id": "john-colmorgen",
+      "title": "John Colmorgen | HLRN Driver Dossier",
+      "description": "John Colmorgen's source-linked HLRN dossier: 3 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/john-colmorgen/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/john-colmorgen.jpg",
+      "spaRoute": "#/driver/john-colmorgen",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/john-crosby/index.html",
+      "type": "driver",
+      "id": "john-crosby",
+      "title": "John Crosby | HLRN Driver Dossier",
+      "description": "John Crosby's source-linked HLRN dossier: 2 official broadcast files, 1 Central editions, and 5 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/john-crosby/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/john-crosby.jpg",
+      "spaRoute": "#/driver/john-crosby",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/john-miles/index.html",
+      "type": "driver",
+      "id": "john-miles",
+      "title": "John Miles | HLRN Driver Dossier",
+      "description": "John Miles's source-linked HLRN dossier: 13 official broadcast files, 0 Central editions, and 9 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/john-miles/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/john-miles.jpg",
+      "spaRoute": "#/driver/john-miles",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/john-osborne/index.html",
+      "type": "driver",
+      "id": "john-osborne",
+      "title": "John Osborne | HLRN Driver Dossier",
+      "description": "John Osborne's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/john-osborne/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/john-osborne.jpg",
+      "spaRoute": "#/driver/john-osborne",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/john-petruzzelli/index.html",
+      "type": "driver",
+      "id": "john-petruzzelli",
+      "title": "John Petruzzelli | HLRN Driver Dossier",
+      "description": "John Petruzzelli's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/john-petruzzelli/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/john-petruzzelli.jpg",
+      "spaRoute": "#/driver/john-petruzzelli",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/jordan-riddick/index.html",
+      "type": "driver",
+      "id": "jordan-riddick",
+      "title": "Jordan Riddick | HLRN Driver Dossier",
+      "description": "Jordan Riddick's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/jordan-riddick/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/jordan-riddick.jpg",
+      "spaRoute": "#/driver/jordan-riddick",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/joseph-septon/index.html",
+      "type": "driver",
+      "id": "joseph-septon",
+      "title": "Joseph Septon | HLRN Driver Dossier",
+      "description": "Joseph Septon's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/joseph-septon/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/joseph-septon.jpg",
+      "spaRoute": "#/driver/joseph-septon",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/joseph-yusnukas/index.html",
+      "type": "driver",
+      "id": "joseph-yusnukas",
+      "title": "Joseph Yusnukas | HLRN Driver Dossier",
+      "description": "Joseph Yusnukas's source-linked HLRN dossier: 2 official broadcast files, 1 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/joseph-yusnukas/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/joseph-yusnukas.jpg",
+      "spaRoute": "#/driver/joseph-yusnukas",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/josh-ryder/index.html",
+      "type": "driver",
+      "id": "josh-ryder",
+      "title": "Josh Ryder | HLRN Driver Dossier",
+      "description": "Josh Ryder's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/josh-ryder/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/josh-ryder.jpg",
+      "spaRoute": "#/driver/josh-ryder",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/joshua-mckenna/index.html",
+      "type": "driver",
+      "id": "joshua-mckenna",
+      "title": "Joshua McKenna | HLRN Driver Dossier",
+      "description": "Joshua McKenna's source-linked HLRN dossier: 8 official broadcast files, 0 Central editions, and 6 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/joshua-mckenna/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/joshua-mckenna.jpg",
+      "spaRoute": "#/driver/joshua-mckenna",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/joshua-norton/index.html",
+      "type": "driver",
+      "id": "joshua-norton",
+      "title": "Joshua Norton | HLRN Driver Dossier",
+      "description": "Joshua Norton's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/joshua-norton/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/joshua-norton.jpg",
+      "spaRoute": "#/driver/joshua-norton",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/joshua-sprag/index.html",
+      "type": "driver",
+      "id": "joshua-sprag",
+      "title": "Joshua Sprag | HLRN Driver Dossier",
+      "description": "Joshua Sprag's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 2 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/joshua-sprag/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/joshua-sprag.jpg",
+      "spaRoute": "#/driver/joshua-sprag",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/juan-escamilla/index.html",
+      "type": "driver",
+      "id": "juan-escamilla",
+      "title": "Juan Escamilla | HLRN Driver Dossier",
+      "description": "Juan Escamilla's source-linked HLRN dossier: 19 official broadcast files, 6 Central editions, and 42 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/juan-escamilla/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/juan-escamilla.jpg",
+      "spaRoute": "#/driver/juan-escamilla",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/justin-crow/index.html",
+      "type": "driver",
+      "id": "justin-crow",
+      "title": "Justin Crow | HLRN Driver Dossier",
+      "description": "Justin Crow's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 2 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/justin-crow/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/justin-crow.jpg",
+      "spaRoute": "#/driver/justin-crow",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/justin-lee-pearson/index.html",
+      "type": "driver",
+      "id": "justin-lee-pearson",
+      "title": "Justin Lee Pearson | HLRN Driver Dossier",
+      "description": "Justin Lee Pearson's source-linked HLRN dossier: 11 official broadcast files, 2 Central editions, and 18 exact race-tape entry points. Result totals include accepted…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/justin-lee-pearson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/justin-lee-pearson.jpg",
+      "spaRoute": "#/driver/justin-lee-pearson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/justin-poyus/index.html",
+      "type": "driver",
+      "id": "justin-poyus",
+      "title": "Justin Poyus | HLRN Driver Dossier",
+      "description": "Justin Poyus's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/justin-poyus/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/justin-poyus.jpg",
+      "spaRoute": "#/driver/justin-poyus",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/katon-cox/index.html",
+      "type": "driver",
+      "id": "katon-cox",
+      "title": "Katon Cox | HLRN Driver Dossier",
+      "description": "Katon Cox's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/katon-cox/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/katon-cox.jpg",
+      "spaRoute": "#/driver/katon-cox",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/kenneth-brown/index.html",
+      "type": "driver",
+      "id": "kenneth-brown",
+      "title": "Kenneth Brown | HLRN Driver Dossier",
+      "description": "Kenneth Brown's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/kenneth-brown/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/kenneth-brown.jpg",
+      "spaRoute": "#/driver/kenneth-brown",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/kevin-kaister/index.html",
+      "type": "driver",
+      "id": "kevin-kaister",
+      "title": "Kevin Kaister | HLRN Driver Dossier",
+      "description": "Kevin Kaister's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/kevin-kaister/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/kevin-kaister.jpg",
+      "spaRoute": "#/driver/kevin-kaister",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/kevin-orlando/index.html",
+      "type": "driver",
+      "id": "kevin-orlando",
+      "title": "Kevin Orlando | HLRN Driver Dossier",
+      "description": "Kevin Orlando's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/kevin-orlando/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/kevin-orlando",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/kishan-clater/index.html",
+      "type": "driver",
+      "id": "kishan-clater",
+      "title": "Kishan Clater | HLRN Driver Dossier",
+      "description": "Kishan Clater's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/kishan-clater/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/kishan-clater.jpg",
+      "spaRoute": "#/driver/kishan-clater",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/kyle-cameron/index.html",
+      "type": "driver",
+      "id": "kyle-cameron",
+      "title": "Kyle Cameron | HLRN Driver Dossier",
+      "description": "Kyle Cameron's source-linked HLRN dossier: 12 official broadcast files, 3 Central editions, and 9 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/kyle-cameron/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/kyle-cameron.jpg",
+      "spaRoute": "#/driver/kyle-cameron",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/kyle-hanson/index.html",
+      "type": "driver",
+      "id": "kyle-hanson",
+      "title": "Kyle Hanson | HLRN Driver Dossier",
+      "description": "Kyle Hanson's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/kyle-hanson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/kyle-hanson.jpg",
+      "spaRoute": "#/driver/kyle-hanson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/larkin-boyer/index.html",
+      "type": "driver",
+      "id": "larkin-boyer",
+      "title": "Larkin Boyer | HLRN Driver Dossier",
+      "description": "Larkin Boyer's source-linked HLRN dossier: 6 official broadcast files, 3 Central editions, and 12 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/larkin-boyer/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/larkin-boyer.jpg",
+      "spaRoute": "#/driver/larkin-boyer",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/larry-eddy/index.html",
+      "type": "driver",
+      "id": "larry-eddy",
+      "title": "Larry Eddy | HLRN Driver Dossier",
+      "description": "Larry Eddy's source-linked HLRN dossier: 3 official broadcast files, 0 Central editions, and 2 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/larry-eddy/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/larry-eddy.jpg",
+      "spaRoute": "#/driver/larry-eddy",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/larry-fairman/index.html",
+      "type": "driver",
+      "id": "larry-fairman",
+      "title": "Larry Fairman | HLRN Driver Dossier",
+      "description": "Larry Fairman's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/larry-fairman/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/larry-fairman.jpg",
+      "spaRoute": "#/driver/larry-fairman",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/larry-miles/index.html",
+      "type": "driver",
+      "id": "larry-miles",
+      "title": "Larry Miles | HLRN Driver Dossier",
+      "description": "Larry Miles's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/larry-miles/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/larry-miles.jpg",
+      "spaRoute": "#/driver/larry-miles",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/leia-kieran/index.html",
+      "type": "driver",
+      "id": "leia-kieran",
+      "title": "Leia Kieran | HLRN Driver Dossier",
+      "description": "Leia Kieran's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/leia-kieran/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/leia-kieran.jpg",
+      "spaRoute": "#/driver/leia-kieran",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/logan-banks/index.html",
+      "type": "driver",
+      "id": "logan-banks",
+      "title": "Logan Banks | HLRN Driver Dossier",
+      "description": "Logan Banks's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/logan-banks/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/logan-banks.jpg",
+      "spaRoute": "#/driver/logan-banks",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/logan-bearden/index.html",
+      "type": "driver",
+      "id": "logan-bearden",
+      "title": "Logan Bearden | HLRN Driver Dossier",
+      "description": "Logan Bearden's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/logan-bearden/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/logan-bearden",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/logan-wilson/index.html",
+      "type": "driver",
+      "id": "logan-wilson",
+      "title": "Logan Wilson | HLRN Driver Dossier",
+      "description": "Logan Wilson's source-linked HLRN dossier: 2 official broadcast files, 1 Central editions, and 4 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/logan-wilson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/logan-wilson.jpg",
+      "spaRoute": "#/driver/logan-wilson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/mark-jackson/index.html",
+      "type": "driver",
+      "id": "mark-jackson",
+      "title": "Mark Jackson | HLRN Driver Dossier",
+      "description": "Mark Jackson's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/mark-jackson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/mark-jackson.jpg",
+      "spaRoute": "#/driver/mark-jackson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/matt-brooks/index.html",
+      "type": "driver",
+      "id": "matt-brooks",
+      "title": "Matt Brooks | HLRN Driver Dossier",
+      "description": "Matt Brooks's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/matt-brooks/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/matt-brooks.jpg",
+      "spaRoute": "#/driver/matt-brooks",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/matt-brown/index.html",
+      "type": "driver",
+      "id": "matt-brown",
+      "title": "Matt Brown | HLRN Driver Dossier",
+      "description": "Matt Brown's source-linked HLRN dossier: 17 official broadcast files, 3 Central editions, and 30 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/matt-brown/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/matt-brown.jpg",
+      "spaRoute": "#/driver/matt-brown",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/matthew-graham/index.html",
+      "type": "driver",
+      "id": "matthew-graham",
+      "title": "Matthew Graham | HLRN Driver Dossier",
+      "description": "Matthew Graham's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 3 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/matthew-graham/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/matthew-graham.jpg",
+      "spaRoute": "#/driver/matthew-graham",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/maurice-gillion/index.html",
+      "type": "driver",
+      "id": "maurice-gillion",
+      "title": "Maurice Gillion | HLRN Driver Dossier",
+      "description": "Maurice Gillion's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/maurice-gillion/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/maurice-gillion.jpg",
+      "spaRoute": "#/driver/maurice-gillion",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/michael-jennings/index.html",
+      "type": "driver",
+      "id": "michael-jennings",
+      "title": "Michael Jennings | HLRN Driver Dossier",
+      "description": "Michael Jennings's source-linked HLRN dossier: 11 official broadcast files, 0 Central editions, and 3 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/michael-jennings/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/michael-jennings.jpg",
+      "spaRoute": "#/driver/michael-jennings",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/michael-lounsbury/index.html",
+      "type": "driver",
+      "id": "michael-lounsbury",
+      "title": "Michael Lounsbury | HLRN Driver Dossier",
+      "description": "Michael Lounsbury's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/michael-lounsbury/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/michael-lounsbury.jpg",
+      "spaRoute": "#/driver/michael-lounsbury",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/michael-tokarz/index.html",
+      "type": "driver",
+      "id": "michael-tokarz",
+      "title": "Michael Tokarz | HLRN Driver Dossier",
+      "description": "Michael Tokarz's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/michael-tokarz/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/michael-tokarz.jpg",
+      "spaRoute": "#/driver/michael-tokarz",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/michael-wear/index.html",
+      "type": "driver",
+      "id": "michael-wear",
+      "title": "Michael Wear | HLRN Driver Dossier",
+      "description": "Michael Wear's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/michael-wear/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/michael-wear.jpg",
+      "spaRoute": "#/driver/michael-wear",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/michael-wiley/index.html",
+      "type": "driver",
+      "id": "michael-wiley",
+      "title": "Michael Wiley | HLRN Driver Dossier",
+      "description": "Michael Wiley's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 7 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/michael-wiley/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/michael-wiley.jpg",
+      "spaRoute": "#/driver/michael-wiley",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/mike-hesch/index.html",
+      "type": "driver",
+      "id": "mike-hesch",
+      "title": "Mike Hesch | HLRN Driver Dossier",
+      "description": "Mike Hesch's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/mike-hesch/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/mike-hesch.jpg",
+      "spaRoute": "#/driver/mike-hesch",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/mike-rimkus/index.html",
+      "type": "driver",
+      "id": "mike-rimkus",
+      "title": "Mike Rimkus | HLRN Driver Dossier",
+      "description": "Mike Rimkus's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/mike-rimkus/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/mike-rimkus.jpg",
+      "spaRoute": "#/driver/mike-rimkus",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/miles-elkins/index.html",
+      "type": "driver",
+      "id": "miles-elkins",
+      "title": "Miles Elkins | HLRN Driver Dossier",
+      "description": "Miles Elkins's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/miles-elkins/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/miles-elkins",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/nate-blazedale/index.html",
+      "type": "driver",
+      "id": "nate-blazedale",
+      "title": "Nate Blazedale | HLRN Driver Dossier",
+      "description": "Nate Blazedale's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/nate-blazedale/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/nate-blazedale",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/nate-fields/index.html",
+      "type": "driver",
+      "id": "nate-fields",
+      "title": "Nate Fields | HLRN Driver Dossier",
+      "description": "Nate Fields's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/nate-fields/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/nate-fields",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/nicholas-milibbrand/index.html",
+      "type": "driver",
+      "id": "nicholas-milibbrand",
+      "title": "Nicholas Milibbrand | HLRN Driver Dossier",
+      "description": "Nicholas Milibbrand's source-linked HLRN dossier: 3 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/nicholas-milibbrand/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/nicholas-milibbrand.jpg",
+      "spaRoute": "#/driver/nicholas-milibbrand",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/nick-bowman/index.html",
+      "type": "driver",
+      "id": "nick-bowman",
+      "title": "Nick Bowman | HLRN Driver Dossier",
+      "description": "Nick Bowman's source-linked HLRN dossier: 19 official broadcast files, 11 Central editions, and 82 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/nick-bowman/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/nick-bowman.jpg",
+      "spaRoute": "#/driver/nick-bowman",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/penny-hogan/index.html",
+      "type": "driver",
+      "id": "penny-hogan",
+      "title": "Penny Hogan | HLRN Driver Dossier",
+      "description": "Penny Hogan's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/penny-hogan/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/penny-hogan.jpg",
+      "spaRoute": "#/driver/penny-hogan",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/randy-showers/index.html",
+      "type": "driver",
+      "id": "randy-showers",
+      "title": "Randy Showers | HLRN Driver Dossier",
+      "description": "Randy Showers's source-linked HLRN dossier: 18 official broadcast files, 5 Central editions, and 25 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/randy-showers/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/randy-showers.jpg",
+      "spaRoute": "#/driver/randy-showers",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/randy-switzer/index.html",
+      "type": "driver",
+      "id": "randy-switzer",
+      "title": "Randy Switzer | HLRN Driver Dossier",
+      "description": "Randy Switzer's source-linked HLRN dossier: 11 official broadcast files, 0 Central editions, and 8 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/randy-switzer/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/randy-switzer.jpg",
+      "spaRoute": "#/driver/randy-switzer",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/richard-raymond/index.html",
+      "type": "driver",
+      "id": "richard-raymond",
+      "title": "Richard Raymond | HLRN Driver Dossier",
+      "description": "Richard Raymond's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/richard-raymond/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/richard-raymond.jpg",
+      "spaRoute": "#/driver/richard-raymond",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/ricky-miles/index.html",
+      "type": "driver",
+      "id": "ricky-miles",
+      "title": "Ricky Miles | HLRN Driver Dossier",
+      "description": "Ricky Miles's source-linked HLRN dossier: 11 official broadcast files, 1 Central editions, and 7 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/ricky-miles/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/ricky-miles.jpg",
+      "spaRoute": "#/driver/ricky-miles",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/riley-halverson/index.html",
+      "type": "driver",
+      "id": "riley-halverson",
+      "title": "Riley Halverson | HLRN Driver Dossier",
+      "description": "Riley Halverson's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/riley-halverson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/riley-halverson.jpg",
+      "spaRoute": "#/driver/riley-halverson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/robert-lavell/index.html",
+      "type": "driver",
+      "id": "robert-lavell",
+      "title": "Robert Lavell | HLRN Driver Dossier",
+      "description": "Robert Lavell's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/robert-lavell/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/robert-lavell",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/ronald-hall/index.html",
+      "type": "driver",
+      "id": "ronald-hall",
+      "title": "Ronald Hall | HLRN Driver Dossier",
+      "description": "Ronald Hall's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/ronald-hall/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/ronald-hall.jpg",
+      "spaRoute": "#/driver/ronald-hall",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/ross-campoli/index.html",
+      "type": "driver",
+      "id": "ross-campoli",
+      "title": "Ross Campoli | HLRN Driver Dossier",
+      "description": "Ross Campoli's source-linked HLRN dossier: 4 official broadcast files, 1 Central editions, and 3 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/ross-campoli/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/ross-campoli.jpg",
+      "spaRoute": "#/driver/ross-campoli",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/rusty-chansy/index.html",
+      "type": "driver",
+      "id": "rusty-chansy",
+      "title": "Rusty Chansy | HLRN Driver Dossier",
+      "description": "Rusty Chansy's source-linked HLRN dossier: 3 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/rusty-chansy/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/rusty-chansy.jpg",
+      "spaRoute": "#/driver/rusty-chansy",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/ryan-perkins/index.html",
+      "type": "driver",
+      "id": "ryan-perkins",
+      "title": "Ryan Perkins | HLRN Driver Dossier",
+      "description": "Ryan Perkins's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/ryan-perkins/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/ryan-perkins",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/ryan-simmons/index.html",
+      "type": "driver",
+      "id": "ryan-simmons",
+      "title": "Ryan Simmons | HLRN Driver Dossier",
+      "description": "Ryan Simmons's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/ryan-simmons/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/ryan-simmons.jpg",
+      "spaRoute": "#/driver/ryan-simmons",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/ryan-wilson/index.html",
+      "type": "driver",
+      "id": "ryan-wilson",
+      "title": "Ryan Wilson | HLRN Driver Dossier",
+      "description": "Ryan Wilson's source-linked HLRN dossier: 17 official broadcast files, 4 Central editions, and 17 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/ryan-wilson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/ryan-wilson.jpg",
+      "spaRoute": "#/driver/ryan-wilson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/sam-baker/index.html",
+      "type": "driver",
+      "id": "sam-baker",
+      "title": "Sam Baker | HLRN Driver Dossier",
+      "description": "Sam Baker's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/sam-baker/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/sam-baker.jpg",
+      "spaRoute": "#/driver/sam-baker",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/sam-hensley/index.html",
+      "type": "driver",
+      "id": "sam-hensley",
+      "title": "Sam Hensley | HLRN Driver Dossier",
+      "description": "Sam Hensley's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/sam-hensley/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/sam-hensley.jpg",
+      "spaRoute": "#/driver/sam-hensley",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/sandy-curtis/index.html",
+      "type": "driver",
+      "id": "sandy-curtis",
+      "title": "Sandy Curtis | HLRN Driver Dossier",
+      "description": "Sandy Curtis's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 6 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/sandy-curtis/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/sandy-curtis.jpg",
+      "spaRoute": "#/driver/sandy-curtis",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/scott-wise/index.html",
+      "type": "driver",
+      "id": "scott-wise",
+      "title": "Scott Wise | HLRN Driver Dossier",
+      "description": "Scott Wise's source-linked HLRN dossier: 12 official broadcast files, 1 Central editions, and 12 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/scott-wise/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/scott-wise.jpg",
+      "spaRoute": "#/driver/scott-wise",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/sean-conklin/index.html",
+      "type": "driver",
+      "id": "sean-conklin",
+      "title": "Sean Conklin | HLRN Driver Dossier",
+      "description": "Sean Conklin's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/sean-conklin/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/sean-conklin.jpg",
+      "spaRoute": "#/driver/sean-conklin",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/sebastian-michaels/index.html",
+      "type": "driver",
+      "id": "sebastian-michaels",
+      "title": "Sebastian Michaels | HLRN Driver Dossier",
+      "description": "Sebastian Michaels's source-linked HLRN dossier: 8 official broadcast files, 0 Central editions, and 5 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/sebastian-michaels/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/sebastian-michaels.jpg",
+      "spaRoute": "#/driver/sebastian-michaels",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/shane-hatfield/index.html",
+      "type": "driver",
+      "id": "shane-hatfield",
+      "title": "Shane Hatfield | HLRN Driver Dossier",
+      "description": "Shane Hatfield's source-linked HLRN dossier: 4 official broadcast files, 0 Central editions, and 4 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/shane-hatfield/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/shane-hatfield.jpg",
+      "spaRoute": "#/driver/shane-hatfield",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/shane-hoss/index.html",
+      "type": "driver",
+      "id": "shane-hoss",
+      "title": "Shane Hoss | HLRN Driver Dossier",
+      "description": "Shane Hoss's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/shane-hoss/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/shane-hoss.jpg",
+      "spaRoute": "#/driver/shane-hoss",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/shawn-barry/index.html",
+      "type": "driver",
+      "id": "shawn-barry",
+      "title": "Shawn Barry | HLRN Driver Dossier",
+      "description": "Shawn Barry's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/shawn-barry/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/shawn-barry.jpg",
+      "spaRoute": "#/driver/shawn-barry",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/shawn-stamper/index.html",
+      "type": "driver",
+      "id": "shawn-stamper",
+      "title": "Shawn Stamper | HLRN Driver Dossier",
+      "description": "Shawn Stamper's source-linked HLRN dossier: 17 official broadcast files, 1 Central editions, and 16 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/shawn-stamper/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/shawn-stamper.jpg",
+      "spaRoute": "#/driver/shawn-stamper",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/sheridan-wade/index.html",
+      "type": "driver",
+      "id": "sheridan-wade",
+      "title": "Sheridan Wade | HLRN Driver Dossier",
+      "description": "Sheridan Wade's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/sheridan-wade/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/sheridan-wade",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/stephen-ross/index.html",
+      "type": "driver",
+      "id": "stephen-ross",
+      "title": "Stephen Ross | HLRN Driver Dossier",
+      "description": "Stephen Ross's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/stephen-ross/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/stephen-ross",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/steve-cigars/index.html",
+      "type": "driver",
+      "id": "steve-cigars",
+      "title": "Steve Cigars | HLRN Driver Dossier",
+      "description": "Steve Cigars's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/steve-cigars/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/steve-cigars.jpg",
+      "spaRoute": "#/driver/steve-cigars",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/steven-powers/index.html",
+      "type": "driver",
+      "id": "steven-powers",
+      "title": "Steven Powers | HLRN Driver Dossier",
+      "description": "Steven Powers's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/steven-powers/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/steven-powers.jpg",
+      "spaRoute": "#/driver/steven-powers",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/steven-taylor/index.html",
+      "type": "driver",
+      "id": "steven-taylor",
+      "title": "Steven Taylor | HLRN Driver Dossier",
+      "description": "Steven Taylor's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/steven-taylor/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/steven-taylor.jpg",
+      "spaRoute": "#/driver/steven-taylor",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/tanner-basinski/index.html",
+      "type": "driver",
+      "id": "tanner-basinski",
+      "title": "Tanner Basinski | HLRN Driver Dossier",
+      "description": "Tanner Basinski's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/tanner-basinski/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/tanner-basinski",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/tanner-zimmerman/index.html",
+      "type": "driver",
+      "id": "tanner-zimmerman",
+      "title": "Tanner Zimmerman | HLRN Driver Dossier",
+      "description": "Tanner Zimmerman's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/tanner-zimmerman/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/tanner-zimmerman.jpg",
+      "spaRoute": "#/driver/tanner-zimmerman",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/ted-rakeese/index.html",
+      "type": "driver",
+      "id": "ted-rakeese",
+      "title": "Ted Rakeese | HLRN Driver Dossier",
+      "description": "Ted Rakeese's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/ted-rakeese/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/ted-rakeese.jpg",
+      "spaRoute": "#/driver/ted-rakeese",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/terry-baldwin/index.html",
+      "type": "driver",
+      "id": "terry-baldwin",
+      "title": "Terry Baldwin | HLRN Driver Dossier",
+      "description": "Terry Baldwin's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/terry-baldwin/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/terry-baldwin",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/thomas-christie/index.html",
+      "type": "driver",
+      "id": "thomas-christie",
+      "title": "Thomas Christie | HLRN Driver Dossier",
+      "description": "Thomas Christie's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/thomas-christie/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/thomas-christie.jpg",
+      "spaRoute": "#/driver/thomas-christie",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/thomas-gratton/index.html",
+      "type": "driver",
+      "id": "thomas-gratton",
+      "title": "Thomas Gratton | HLRN Driver Dossier",
+      "description": "Thomas Gratton's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/thomas-gratton/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/thomas-gratton",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/timothy-tyler/index.html",
+      "type": "driver",
+      "id": "timothy-tyler",
+      "title": "Timothy Tyler | HLRN Driver Dossier",
+      "description": "Timothy Tyler's source-linked HLRN dossier: 20 official broadcast files, 0 Central editions, and 12 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/timothy-tyler/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/timothy-tyler.jpg",
+      "spaRoute": "#/driver/timothy-tyler",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/todd-mays/index.html",
+      "type": "driver",
+      "id": "todd-mays",
+      "title": "Todd Mays | HLRN Driver Dossier",
+      "description": "Todd Mays's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/todd-mays/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/todd-mays.jpg",
+      "spaRoute": "#/driver/todd-mays",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/todd-robbins/index.html",
+      "type": "driver",
+      "id": "todd-robbins",
+      "title": "Todd Robbins | HLRN Driver Dossier",
+      "description": "Todd Robbins's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/todd-robbins/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/og-hlrn-living-wiki.png",
+      "spaRoute": "#/driver/todd-robbins",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/tommy-ryan/index.html",
+      "type": "driver",
+      "id": "tommy-ryan",
+      "title": "Tommy Ryan | HLRN Driver Dossier",
+      "description": "Tommy Ryan's source-linked HLRN dossier: 2 official broadcast files, 1 Central editions, and 6 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/tommy-ryan/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/tommy-ryan.jpg",
+      "spaRoute": "#/driver/tommy-ryan",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/trace-mcdowell/index.html",
+      "type": "driver",
+      "id": "trace-mcdowell",
+      "title": "Trace McDowell | HLRN Driver Dossier",
+      "description": "Trace McDowell's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 8 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/trace-mcdowell/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/trace-mcdowell.jpg",
+      "spaRoute": "#/driver/trace-mcdowell",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/trevor-haley/index.html",
+      "type": "driver",
+      "id": "trevor-haley",
+      "title": "Trevor Haley | HLRN Driver Dossier",
+      "description": "Trevor Haley's source-linked HLRN dossier: 20 official broadcast files, 17 Central editions, and 108 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/trevor-haley/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/trevor-haley.jpg",
+      "spaRoute": "#/driver/trevor-haley",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/trey-craig/index.html",
+      "type": "driver",
+      "id": "trey-craig",
+      "title": "Trey Craig | HLRN Driver Dossier",
+      "description": "Trey Craig's source-linked HLRN dossier: 2 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/trey-craig/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/trey-craig.jpg",
+      "spaRoute": "#/driver/trey-craig",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/tristan-combes/index.html",
+      "type": "driver",
+      "id": "tristan-combes",
+      "title": "Tristan Combes | HLRN Driver Dossier",
+      "description": "Tristan Combes's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/tristan-combes/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/tristan-combes.jpg",
+      "spaRoute": "#/driver/tristan-combes",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/tristan-johnson/index.html",
+      "type": "driver",
+      "id": "tristan-johnson",
+      "title": "Tristan Johnson | HLRN Driver Dossier",
+      "description": "Tristan Johnson's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 2 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/tristan-johnson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/tristan-johnson.jpg",
+      "spaRoute": "#/driver/tristan-johnson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/tyler-dixon/index.html",
+      "type": "driver",
+      "id": "tyler-dixon",
+      "title": "Tyler Dixon | HLRN Driver Dossier",
+      "description": "Tyler Dixon's source-linked HLRN dossier: 3 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/tyler-dixon/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/tyler-dixon.jpg",
+      "spaRoute": "#/driver/tyler-dixon",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "SportsTeam",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/tyler-gothard/index.html",
+      "type": "driver",
+      "id": "tyler-gothard",
+      "title": "Tyler Gothard | HLRN Driver Dossier",
+      "description": "Tyler Gothard's source-linked HLRN dossier: 5 official broadcast files, 0 Central editions, and 4 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/tyler-gothard/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/tyler-gothard.jpg",
+      "spaRoute": "#/driver/tyler-gothard",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/tyler-hoffman/index.html",
+      "type": "driver",
+      "id": "tyler-hoffman",
+      "title": "Tyler Hoffman | HLRN Driver Dossier",
+      "description": "Tyler Hoffman's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/tyler-hoffman/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/tyler-hoffman.jpg",
+      "spaRoute": "#/driver/tyler-hoffman",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/victor-rivera/index.html",
+      "type": "driver",
+      "id": "victor-rivera",
+      "title": "Victor Rivera | HLRN Driver Dossier",
+      "description": "Victor Rivera's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/victor-rivera/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/victor-rivera.jpg",
+      "spaRoute": "#/driver/victor-rivera",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/vincent-guerrero/index.html",
+      "type": "driver",
+      "id": "vincent-guerrero",
+      "title": "Vincent Guerrero | HLRN Driver Dossier",
+      "description": "Vincent Guerrero's source-linked HLRN dossier: 4 official broadcast files, 1 Central editions, and 6 exact race-tape entry points. Result totals include accepted evidence…",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/vincent-guerrero/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/vincent-guerrero.jpg",
+      "spaRoute": "#/driver/vincent-guerrero",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/william-george/index.html",
+      "type": "driver",
+      "id": "william-george",
+      "title": "William George | HLRN Driver Dossier",
+      "description": "William George's source-linked HLRN dossier: 0 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/william-george/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/william-george.jpg",
+      "spaRoute": "#/driver/william-george",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/william-snider/index.html",
+      "type": "driver",
+      "id": "william-snider",
+      "title": "William Snider | HLRN Driver Dossier",
+      "description": "William Snider's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/william-snider/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/william-snider.jpg",
+      "spaRoute": "#/driver/william-snider",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/wyatt-thompson/index.html",
+      "type": "driver",
+      "id": "wyatt-thompson",
+      "title": "Wyatt Thompson | HLRN Driver Dossier",
+      "description": "Wyatt Thompson's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/wyatt-thompson/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/wyatt-thompson.jpg",
+      "spaRoute": "#/driver/wyatt-thompson",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/zach-smith/index.html",
+      "type": "driver",
+      "id": "zach-smith",
+      "title": "Zach Smith | HLRN Driver Dossier",
+      "description": "Zach Smith's source-linked HLRN dossier: 1 official broadcast files, 0 Central editions, and 1 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/zach-smith/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/zach-smith.jpg",
+      "spaRoute": "#/driver/zach-smith",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/zack-cato/index.html",
+      "type": "driver",
+      "id": "zack-cato",
+      "title": "Zack Cato | HLRN Driver Dossier",
+      "description": "Zack Cato's source-linked HLRN dossier: 4 official broadcast files, 1 Central editions, and 8 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/zack-cato/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/zack-cato.jpg",
+      "spaRoute": "#/driver/zack-cato",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "driver/zack-harry/index.html",
+      "type": "driver",
+      "id": "zack-harry",
+      "title": "Zack Harry | HLRN Driver Dossier",
+      "description": "Zack Harry's source-linked HLRN dossier: 3 official broadcast files, 0 Central editions, and 0 exact race-tape entry points. Result totals include accepted evidence only.",
+      "canonical": "https://shokkergroup.github.io/hlrn/driver/zack-harry/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/driver-cars/zack-harry.jpg",
+      "spaRoute": "#/driver/zack-harry",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ListItem",
+        "Person",
+        "ProfilePage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/1hQe3Cg_KB8/index.html",
+      "type": "race",
+      "id": "1hQe3Cg_KB8",
+      "title": "League Race at Talladega | HLRN S1 R8",
+      "description": "Juan Escamilla won HLRN Season 1, Race 8 at Talladega according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/1hQe3Cg_KB8/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/1hQe3Cg_KB8.jpg",
+      "spaRoute": "#/race/1hQe3Cg_KB8",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/4HnbWW_C124/index.html",
+      "type": "race",
+      "id": "4HnbWW_C124",
+      "title": "Race 15 at iRacing Superspeedway | HLRN S1 R15",
+      "description": "Shawn Stamper won HLRN Season 1, Race 15 at iRacing Superspeedway according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original…",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/4HnbWW_C124/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/4HnbWW_C124.jpg",
+      "spaRoute": "#/race/4HnbWW_C124",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/7R7osKxmt2Q/index.html",
+      "type": "race",
+      "id": "7R7osKxmt2Q",
+      "title": "Race 6 at Las Vegas | HLRN S1 R6",
+      "description": "Ethan Moreno won HLRN Season 1, Race 6 at Las Vegas according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/7R7osKxmt2Q/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/7R7osKxmt2Q.jpg",
+      "spaRoute": "#/race/7R7osKxmt2Q",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/7rhtVe7p684/index.html",
+      "type": "race",
+      "id": "7rhtVe7p684",
+      "title": "Pedley's 200 at Iowa | HLRN S2 R2",
+      "description": "Nick Bowman won HLRN Season 2, Race 2 at Iowa according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/7rhtVe7p684/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/7rhtVe7p684.jpg",
+      "spaRoute": "#/race/7rhtVe7p684",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/CAy1sfobkjc/index.html",
+      "type": "race",
+      "id": "CAy1sfobkjc",
+      "title": "Race 3 at Charlotte | HLRN S1 R3",
+      "description": "Joseph Yusnukas won HLRN Season 1, Race 3 at Charlotte according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/CAy1sfobkjc/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/CAy1sfobkjc.jpg",
+      "spaRoute": "#/race/CAy1sfobkjc",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/GiBpQcRxiK0/index.html",
+      "type": "race",
+      "id": "GiBpQcRxiK0",
+      "title": "League Race at Daytona | HLRN S1 R12",
+      "description": "Matt Brown won HLRN Season 1, Race 12 at Daytona according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/GiBpQcRxiK0/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/GiBpQcRxiK0.jpg",
+      "spaRoute": "#/race/GiBpQcRxiK0",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/KS8f6L1G-cM/index.html",
+      "type": "race",
+      "id": "KS8f6L1G-cM",
+      "title": "League Race at Kansas | HLRN S1 R10",
+      "description": "Cory Cook won HLRN Season 1, Race 10 at Kansas according to the accepted tape-supported result ledger. Open 15 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/KS8f6L1G-cM/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/KS8f6L1G-cM.jpg",
+      "spaRoute": "#/race/KS8f6L1G-cM",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/NLBFD59ykZQ/index.html",
+      "type": "race",
+      "id": "NLBFD59ykZQ",
+      "title": "Race 14 at Richmond | HLRN S1 R14",
+      "description": "Nick Bowman won HLRN Season 1, Race 14 at Richmond according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/NLBFD59ykZQ/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/NLBFD59ykZQ.jpg",
+      "spaRoute": "#/race/NLBFD59ykZQ",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/PSEqzU7I0xs/index.html",
+      "type": "race",
+      "id": "PSEqzU7I0xs",
+      "title": "League Race at Chicagoland | HLRN S1 R9",
+      "description": "Juan Escamilla won HLRN Season 1, Race 9 at Chicagoland according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/PSEqzU7I0xs/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/PSEqzU7I0xs.jpg",
+      "spaRoute": "#/race/PSEqzU7I0xs",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/RUoyXBOFres/index.html",
+      "type": "race",
+      "id": "RUoyXBOFres",
+      "title": "Season Opener at Daytona | HLRN S1 R1",
+      "description": "Jaden Porter won HLRN Season 1, Race 1 at Daytona according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/RUoyXBOFres/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/RUoyXBOFres.jpg",
+      "spaRoute": "#/race/RUoyXBOFres",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/SRi2RdvUfAo/index.html",
+      "type": "race",
+      "id": "SRi2RdvUfAo",
+      "title": "Race 4 at iRacing Superspeedway | HLRN S1 R4",
+      "description": "Juan Escamilla won HLRN Season 1, Race 4 at iRacing Superspeedway according to the accepted tape-supported result ledger. Open 16 exact broadcast chapters and the original…",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/SRi2RdvUfAo/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/SRi2RdvUfAo.jpg",
+      "spaRoute": "#/race/SRi2RdvUfAo",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/Tw1ZePrIt1Q/index.html",
+      "type": "race",
+      "id": "Tw1ZePrIt1Q",
+      "title": "Season 1 Finale at Talladega | HLRN S1 R16",
+      "description": "David Applegate won HLRN Season 1, Race 16 at Talladega according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/Tw1ZePrIt1Q/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/Tw1ZePrIt1Q.jpg",
+      "spaRoute": "#/race/Tw1ZePrIt1Q",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/XYXxHpKdiDU/index.html",
+      "type": "race",
+      "id": "XYXxHpKdiDU",
+      "title": "TWRS 175 at Chicagoland | HLRN S2 R3",
+      "description": "Ethan Moreno won HLRN Season 2, Race 3 at Chicagoland according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/XYXxHpKdiDU/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/XYXxHpKdiDU.jpg",
+      "spaRoute": "#/race/XYXxHpKdiDU",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/YBeqOsi6IbY/index.html",
+      "type": "race",
+      "id": "YBeqOsi6IbY",
+      "title": "League Race at Charlotte Roval | HLRN S1 R11",
+      "description": "Nick Bowman won HLRN Season 1, Race 11 at Charlotte Roval according to the accepted tape-supported result ledger. Open 17 exact broadcast chapters and the original race…",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/YBeqOsi6IbY/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/YBeqOsi6IbY.jpg",
+      "spaRoute": "#/race/YBeqOsi6IbY",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/bd3t5XgtQso/index.html",
+      "type": "race",
+      "id": "bd3t5XgtQso",
+      "title": "The Road Begins at Daytona | HLRN S2 R1",
+      "description": "Ethan Moreno won HLRN Season 2, Race 1 at Daytona according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/bd3t5XgtQso/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/bd3t5XgtQso.jpg",
+      "spaRoute": "#/race/bd3t5XgtQso",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/kLqZuSjM4t4/index.html",
+      "type": "race",
+      "id": "kLqZuSjM4t4",
+      "title": "Race 7 at Michigan | HLRN S1 R7",
+      "description": "Randy Showers won HLRN Season 1, Race 7 at Michigan according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/kLqZuSjM4t4/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/kLqZuSjM4t4.jpg",
+      "spaRoute": "#/race/kLqZuSjM4t4",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/lcO1Lo69zqo/index.html",
+      "type": "race",
+      "id": "lcO1Lo69zqo",
+      "title": "Race 5 at Watkins Glen | HLRN S1 R5",
+      "description": "Juan Escamilla won HLRN Season 1, Race 5 at Watkins Glen according to the accepted tape-supported result ledger. Open 15 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/lcO1Lo69zqo/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/lcO1Lo69zqo.jpg",
+      "spaRoute": "#/race/lcO1Lo69zqo",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/mEI0Oo-Sm5s/index.html",
+      "type": "race",
+      "id": "mEI0Oo-Sm5s",
+      "title": "David Boyer Memorial 175 at EchoPark | HLRN S2 R4",
+      "description": "Craig Rowe won HLRN Season 2, Race 4 at EchoPark Speedway according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race…",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/mEI0Oo-Sm5s/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/mEI0Oo-Sm5s.jpg",
+      "spaRoute": "#/race/mEI0Oo-Sm5s",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/tY1DETWdQGk/index.html",
+      "type": "race",
+      "id": "tY1DETWdQGk",
+      "title": "Race 2 at Homestead-Miami | HLRN S1 R2",
+      "description": "Ethan Moreno won HLRN Season 1, Race 2 at Homestead-Miami according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race…",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/tY1DETWdQGk/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/tY1DETWdQGk.jpg",
+      "spaRoute": "#/race/tY1DETWdQGk",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    },
+    {
+      "file": "race/upQfchHHEJw/index.html",
+      "type": "race",
+      "id": "upQfchHHEJw",
+      "title": "Race 13 at Dover | HLRN S1 R13",
+      "description": "Connor Papowell won HLRN Season 1, Race 13 at Dover according to the accepted tape-supported result ledger. Open 18 exact broadcast chapters and the original race source.",
+      "canonical": "https://shokkergroup.github.io/hlrn/race/upQfchHHEJw/",
+      "image": "https://shokkergroup.github.io/hlrn/assets/central-frames/upQfchHHEJw.jpg",
+      "spaRoute": "#/race/upQfchHHEJw",
+      "schemaTypes": [
+        "BreadcrumbList",
+        "ImageObject",
+        "ListItem",
+        "SportsEvent",
+        "VideoObject",
+        "VirtualLocation",
+        "WebPage",
+        "WebSite"
+      ]
+    }
+  ]
+}

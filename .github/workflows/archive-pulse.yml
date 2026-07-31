@@ -1,0 +1,34 @@
+name: HLRN archive pulse
+
+on:
+  schedule:
+    - cron: "17 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compare the HLRN feed with indexed IDs
+        id: pulse
+        run: python pipeline/check_channel_pulse.py
+      - name: Publish the quarantine report to the job summary
+        run: cat pipeline/channel_pulse_issue.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Open or update the human-review queue
+        if: steps.pulse.outputs.new_count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          gh label create archive-pulse --color 21b4ff --description "New HLRN upload awaiting canon and evidence review" --force
+          existing="$(gh issue list --state open --label archive-pulse --json number --jq '.[0].number // empty')"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file pipeline/channel_pulse_issue.md
+          else
+            gh issue create --title "HLRN archive pulse: unindexed upload review" --label archive-pulse --body-file pipeline/channel_pulse_issue.md
+          fi

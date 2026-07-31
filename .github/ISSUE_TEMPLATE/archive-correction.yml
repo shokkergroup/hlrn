@@ -1,0 +1,41 @@
+name: Archive correction
+description: Propose a source-bounded, append-only correction.
+title: "HLRN correction: "
+labels: ["correction"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Source ID or page URL
+    validations:
+      required: true
+  - type: input
+    id: timestamp
+    attributes:
+      label: Exact timestamp or official sheet reference
+  - type: dropdown
+    id: type
+    attributes:
+      label: Correction type
+      options:
+        - Result or ruling
+        - Driver identity
+        - Team or car number
+        - Track or event metadata
+        - Editorial context
+        - Removed source or rights request
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What is wrong and what should replace it?
+    validations:
+      required: true
+  - type: textarea
+    id: authority
+    attributes:
+      label: Evidence and authority
+    validations:
+      required: true

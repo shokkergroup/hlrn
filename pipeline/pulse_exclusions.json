@@ -1,0 +1,42 @@
+{
+  "schema": "hlrn-pulse-exclusions/v1",
+  "policy": "The HLRN race archive begins from the channel livestream shelf. Short-form non-live promotional or comedy uploads remain outside official race, Highline Live, result, ranking, and race-story lanes unless an owner later expands scope.",
+  "items": [
+    {
+      "id": "UWtuh8Co9fw",
+      "title": "Race Car Drivers are Gangsta!#nascar #carsonhocevar #SMT",
+      "durationSeconds": 20,
+      "liveStatus": "not_live",
+      "decision": "exclude-from-race-archive",
+      "reason": "Short-form non-live channel upload; not a race broadcast or companion program.",
+      "reviewedAt": "2026-07-31"
+    },
+    {
+      "id": "EgAnSuw3nhw",
+      "title": "iRacing's New BS-5000 Scannner! #iracing #nascar #funny #esports",
+      "durationSeconds": 58,
+      "liveStatus": "not_live",
+      "decision": "exclude-from-race-archive",
+      "reason": "Short-form non-live channel upload; not a race broadcast or companion program.",
+      "reviewedAt": "2026-07-31"
+    },
+    {
+      "id": "wqm3lqPpjH8",
+      "title": "Sometimes you have to just go for it! #youcandoit #shark #defender #iracing #esports",
+      "durationSeconds": 41,
+      "liveStatus": "not_live",
+      "decision": "exclude-from-race-archive",
+      "reason": "Short-form non-live channel upload; not a race broadcast or companion program.",
+      "reviewedAt": "2026-07-31"
+    },
+    {
+      "id": "HK420dZxwVE",
+      "title": "My Driver! #iracing #automobile #nascar #f1simracing #esports #talladega #cool",
+      "durationSeconds": 20,
+      "liveStatus": "not_live",
+      "decision": "exclude-from-race-archive",
+      "reason": "Short-form non-live channel upload; not a race broadcast or companion program.",
+      "reviewedAt": "2026-07-31"
+    }
+  ]
+}

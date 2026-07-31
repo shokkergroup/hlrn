@@ -38,10 +38,9 @@ The public, source-linked living archive of the
 
 ## Core experience
 
-The VRL engine’s evidence architecture is preserved—stable source identities,
-lazy timed transcripts, exact YouTube recovery links, unknown-safe result
-boundaries, hash routes, and explainable rankings—but HLRN has its own visual
-and editorial world: **Highline Central**, **The Show**, **Race Radar**,
+The archive is built on stable source identities, lazy timed transcripts,
+exact YouTube recovery links, unknown-safe result boundaries, and explainable
+rankings. HLRN’s visible world is native to the channel: **Highline Central**, **The Show**, **Race Radar**,
 **Pack Finder**, **Highline Frequency**, **Last Lap Lottery**, and the separate
 **Highline Live** bonus universe.
 
@@ -93,8 +92,50 @@ The expanded experience includes a **Results Room**, **Winner’s Garage**,
 authored **Story Paths**, **Race Night Mixer**, persistent **Replay Builder**,
 **Highline Lore Studio**, **Highline Pulse**, **Evidence Ledger**,
 **Open Records**, the public **Trust Audit Board**, **Corrections Desk**, and
-**Owner Result Intake**. The current audit measures 40 HLRN route families
-versus 36 in the VRL reference, with 26 Explore tools.
+**Owner Result Intake**, and a complete owner-ready operational layer.
+
+## Owner-ready official edition
+
+The public-source archive now separates recovered tape evidence from records
+that require authenticated league authority. The operational product includes:
+
+- **League HQ** with an honest next-race, schedule, standings, roster, and
+  race-night state. Unsupported future data stays visibly open.
+- **Team Paddock** with ten existing evidence-bounded team entities and 14
+  structured driver associations, never mislabeled as a complete current
+  roster.
+- **Sponsor Flight Recorder** with five evidence seeds and 295 reproducible
+  caption matches across 77 transcripts. Caption hits are explicitly barred
+  from becoming impression, reach, value, or relationship claims.
+- **Owner Access** with five clean CSV templates for schedules, rosters,
+  classifications, teams, and approved sponsor data.
+- Actual GitHub review endpoints for owner certification, append-only
+  corrections, result patches, and driver profile claims.
+- **Owner Studio** with candidate, reviewed, approved, and published states;
+  proposed hooks and captions; rights/context notes; publication URLs;
+  performance notes; a 9:16 concept preview; replay import; and portable
+  JSON/CSV projects.
+- A privacy-local **Impact Board** plus an optional owner-controlled analytics
+  endpoint contract. The preview does not claim global traffic.
+- **Trust & Ownership** terms covering authorization, media rights, evidence,
+  privacy, sponsor boundaries, and a static no-lock-in handoff.
+
+The owner tour connects the actual product loop: full broadcast → 15–18 exact
+cuts → Central story → durable driver/team records → sponsor proof → production
+queue → owner-certified league home.
+
+## Shareable static pages
+
+The hash-routed application is backed by 265 generated, crawlable pages:
+
+- 20 official race pages;
+- 20 complete Highline Central articles;
+- 225 driver dossiers.
+
+Every generated page has a unique canonical URL, title, description, Open
+Graph/Twitter metadata, JSON-LD, readable source-bounded content, cross-links,
+and an exact launch link into the interactive archive. The sitemap publishes
+266 URLs and the static-page audit requires zero errors or warnings.
 
 **Ask the Tape** now returns structured result/driver/award answers, exact
 transcript receipts, related Central reporting, and up to 12 direct
@@ -118,14 +159,35 @@ The public compiler currently passes:
   and unique-image-hash audit;
 - all-board Top 25 formula and playable-receipt audit;
 - public-language audit over 4,378 authored fields / 109,803 words;
-- public-asset audit over 11 core assets, 226 decoded images, and 77 transcript
-  chunks;
-- 66 desktop/mobile route and workflow scenarios, plus every driver, Central,
+- public-asset audit over 11 core assets, 449 decoded images, and 77 transcript
+  chunks; 223 source-linked WebP derivatives reduce mapped image delivery by
+  61.32% while preserving every evidence JPG as a fallback;
+- owner-data validation for certification, schedule, standings, roster, team,
+  sponsor, update, and rights boundaries;
+- a 67-check owner-product audit across League HQ, teams, sponsors, owner
+  intake, driver claims, Studio, Ask, and 390px layouts;
+- a 265-page static metadata/schema/sitemap audit;
+- 79 desktop/mobile route and workflow scenarios, plus every driver, Central,
   Highline Live, and archive-fragment detail route; every rendered form
   control must expose an accessible name;
-- a recursive internal-link graph of 1,070 reachable routes across all 40
-  route families, including 713 race and exact-time deep links.
+- a recursive internal-link graph of 1,323 reachable routes across all 50
+  route families, including 716 race and exact-time deep links.
 
 ## Local preview
 
 Run `python serve.py`, then open `http://localhost:8792`.
+
+Run the complete release contract with:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File pipeline\verify_release.ps1 -SkipLiveSourceChecks
+```
+
+Sync a reviewed release to the standalone deployment repository with:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File pipeline\sync_standalone_release.ps1
+```
+
+The sync script verifies the expected `shokkergroup/hlrn` remote and never
+commits or pushes automatically.

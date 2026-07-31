@@ -1,0 +1,43 @@
+name: HLRN owner certification
+description: Request authenticated owner review for the official HLRN edition.
+title: "HLRN owner certification: "
+labels: ["owner-intake"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This request begins a review. It does not automatically change public canon or imply owner endorsement.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: HLRN role or authority
+      placeholder: League owner, administrator, scoring official, authorized representative
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Requested certification scope
+      description: Identify the schedules, rosters, results, rules, sponsor records, marks, or site ownership you are authorized to review.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Authority and supporting material
+      description: Provide an owner-approved contact path or link to supporting records. Do not post private credentials.
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Review boundary
+      options:
+        - label: I understand this remains pending until authority and evidence are reviewed.
+          required: true

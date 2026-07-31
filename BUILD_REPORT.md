@@ -2,9 +2,9 @@
 
 ## Outcome
 
-The HLRN wiki now uses the VRL Living Wiki’s evidence depth rather than merely
-its navigation shape. It is a distinct HLRN publication, playback archive,
-driver registry, awards room, and source ledger.
+The HLRN wiki is a standalone, evidence-deep publication, playback archive,
+driver registry, awards room, and source ledger with its own public repository
+and product identity.
 
 Public URL:
 https://shokkergroup.github.io/hlrn/
@@ -73,8 +73,9 @@ mismatches.
 - Exact duplicate boilerplate paragraphs were removed across the driver
   registry; each paragraph now remains anchored to its own subject.
 - 203 dossiers have source-attributed frames and 22 keep honest monograms.
-- All 203 public driver frames are unique by SHA-256, decode correctly, and are
-  at least 1280×720.
+- All 203 source driver frames are unique by SHA-256, decode correctly, and are
+  at least 1280×720; the public delivery layer uses 960×540 WebP derivatives
+  with the evidence JPG retained as a fallback.
 - The visual evidence ledger distinguishes 149 name/scoring-graphic matches,
   3 live-call matches, and 51 source-context frames.
 
@@ -173,13 +174,40 @@ results/drivers/awards, direct primary-race chapters, raw timed transcript
 receipts, and authored Central reporting. A query such as `Talladega final lap`
 returns exact in-wiki race cuts instead of only caption snippets.
 
+## Owner-ready league product
+
+The archive now includes a separate official-data contract and operational
+product layer without promoting inferred broadcast information into league
+authority.
+
+- League HQ exposes the current-season archive while leaving next race,
+  schedule, standings, and full roster visibly unavailable until supplied.
+- Ten evidence-bounded team entities reproduce 14 existing structured archive
+  associations; none are labeled a complete or current roster.
+- Sponsor Flight Recorder reproduces 295 caption matches across five evidence
+  seeds and explicitly reports zero impressions.
+- Owner Access provides five normalized CSV templates and tracked GitHub review
+  packets for certification, corrections, results, and driver claims.
+- Owner Studio adds candidate, reviewed, approved, and published states with
+  hooks, captions, context/rights notes, publication URLs, performance notes,
+  9:16 concept preview, replay import, and JSON/CSV export.
+- Impact Board records anonymous aggregate activity in the current browser and
+  keeps site-wide analytics disconnected until an owner-controlled endpoint is
+  configured.
+- Trust & Ownership publishes authorization, video, evidence, privacy, sponsor,
+  and no-lock-in handoff boundaries.
+- 265 static race, Central, and driver pages carry unique canonical metadata,
+  social cards, JSON-LD, readable content, cross-links, and SPA launch routes.
+- A 67-check owner-product audit and a 265-page static audit are now mandatory
+  release gates.
+
 ## Verification snapshot
 
-- HLRN route families: 40.
-- VRL reference route families: 36.
-- Explore tools: 26.
-- Desktop/mobile route and workflow scenarios: 66.
-- Reachable internal route graph: 1,070 routes across 40 families.
+- HLRN route families: 50.
+- Owner-product route families are included in the complete graph.
+- Explore includes operational, sponsor, measurement, claim, and ownership desks.
+- Desktop/mobile route and workflow scenarios: 79.
+- Reachable internal route graph: 1,323 routes across 50 families.
 - All-driver routes: 225/225.
 - All-Central routes: 20/20.
 - All-Highline-Live routes: 29/29.
@@ -196,7 +224,9 @@ returns exact in-wiki race cuts instead of only caption snippets.
 - Public source shelf match: 52/52.
 - Public auxiliary-video availability and duration match: 40/40.
 - Official-race companion subset: 20/20.
-- Public asset audit: 11 core assets, 226 decoded images, 77 transcript chunks.
+- Public asset audit: 11 core assets, 449 decoded images, 77 transcript chunks.
+- Optimized delivery: 223 WebP derivatives, 31.47 MB source payload reduced to
+  12.17 MB (61.32% saved) with all JPG evidence originals preserved.
 - Repeated archive-card imagery uses deferred loading and asynchronous decoding.
 - Chapter, chapter-player, editorial, race-story, cross-contract, driver,
   result, awards, language, source, asset, route-graph, and responsive-browser
@@ -207,6 +237,6 @@ returns exact in-wiki race cuts instead of only caption snippets.
 - Machine candidates in public editorial: zero.
 - Unsupported complete results published: zero.
 
-The executable comparison and gate evidence are in
-`pipeline/feature_parity_report.json`, `pipeline/feature_parity_report.md`, and
-the `pipeline/*_report.json` audit artifacts.
+Executable gate evidence is stored in the `pipeline/*_report.json` audit
+artifacts, including the official-contract, owner-product, and static-page
+reports.
