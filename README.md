@@ -15,11 +15,11 @@ The public, source-linked living archive of the
 - 20/20 HLRN-authored official-race companions mapped and independently
   rechecked for current reachability
 - 225 normalized, evidence-tiered driver dossiers
-- 43,837 public driver-dossier words, with a 179-word minimum file
+- 43,825 public driver-dossier words, with a 179-word minimum file
 - 441 exact, transcript-reproduced name-call receipts across all 225 dossiers
-- 190 unique 1280×720 source frames across driver dossiers; 35 honest
+- 196 unique 1280×720 source frames across driver dossiers; 29 honest
   monogram fallbacks
-- Visual evidence split into 136 name/scoring-graphic matches, 3 live-call
+- Visual evidence split into 142 name/scoring-graphic matches, 3 live-call
   matches, and 51 explicitly limited source-context frames
 - 351 full-broadcast race chapters, with 15–18 distinct cuts per official race
 - 118 individually tape-reviewed navigation chapters and 208 additional
@@ -117,8 +117,8 @@ The public compiler currently passes:
 - all-driver dossier, result-receipt, name-provenance, transcript-reproduction,
   and unique-image-hash audit;
 - all-board Top 25 formula and playable-receipt audit;
-- public-language audit over 4,378 authored fields / 109,475 words;
-- public-asset audit over 11 core assets, 213 decoded images, and 77 transcript
+- public-language audit over 4,378 authored fields / 109,634 words;
+- public-asset audit over 11 core assets, 219 decoded images, and 77 transcript
   chunks;
 - 66 desktop/mobile route and workflow scenarios, plus every driver, Central,
   Highline Live, and archive-fragment detail route; every rendered form
