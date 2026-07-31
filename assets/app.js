@@ -766,7 +766,7 @@
       '<div class="hero-ledger"><div><b>' + records.officialCount + '</b><span>OFFICIAL<br>RACES</span></div><div><b>' + records.liveCount + '</b><span>HIGHLINE LIVE<br>FILES</span></div><div><b>' + records.hours + '</b><span>HOURS OF<br>TAPE</span></div><div><b>' + records.transcriptSegments.toLocaleString() + '</b><span>TIMED<br>SEGMENTS</span></div></div></div>' +
       '<aside class="hero-live-card"><div class="on-air"><i></i>SEASON 2 / CURRENT SIGNAL</div><img src="' + esc(latest.thumb) + '" alt="Latest official HLRN broadcast"><div class="hero-live-copy">' +
       laneBadge(latest) + '<h2>' + esc(sourceTitle(latest)) + '</h2><p>' + esc(latest.track) + " · " + esc(fmtDate(latest.date)) + "</p>" +
-      heatBar(latest) + '<div><button onclick="__play(\'' + latest.id + '\',0,' + playArg(sourceTitle(latest)) + ')">▶ WATCH FROM START</button><a href="#/race/' + latest.id + '">OPEN SIGNAL FILE</a></div></div></aside></div></section>' +
+      heatBar(latest) + '<div><button onclick="__play(\'' + latest.id + '\',0,' + playArg(sourceTitle(latest)) + ')">▶ WATCH FROM START</button><a href="#/race/' + latest.id + '">OPEN RACE FILE</a></div></div></aside></div></section>' +
       '<section class="route-console"><div class="wrap"><header><span>CHOOSE YOUR FREQUENCY</span><h2>EIGHT WAYS INTO THE NETWORK</h2></header><div class="route-grid">' +
       featureRoutes.map(function (item) { return '<a href="' + item[3] + '"><b>' + item[0] + '</b><span>' + item[1] + '</span><p>' + item[2] + '</p><em>OPEN ↗</em></a>'; }).join("") +
       '</div></div></section>' +
