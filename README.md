@@ -123,7 +123,7 @@ The public compiler currently passes:
 - 66 desktop/mobile route and workflow scenarios, plus every driver, Central,
   Highline Live, and archive-fragment detail route; every rendered form
   control must expose an accessible name;
-- a recursive internal-link graph of 1,068 reachable routes across all 40
+- a recursive internal-link graph of 1,070 reachable routes across all 40
   route families, including 713 race and exact-time deep links.
 
 ## Local preview

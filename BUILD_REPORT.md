@@ -179,7 +179,7 @@ returns exact in-wiki race cuts instead of only caption snippets.
 - VRL reference route families: 36.
 - Explore tools: 26.
 - Desktop/mobile route and workflow scenarios: 66.
-- Reachable internal route graph: 1,068 routes across 40 families.
+- Reachable internal route graph: 1,070 routes across 40 families.
 - All-driver routes: 225/225.
 - All-Central routes: 20/20.
 - All-Highline-Live routes: 29/29.
