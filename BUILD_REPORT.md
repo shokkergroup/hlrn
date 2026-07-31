@@ -60,7 +60,7 @@ mismatches.
 - Trevor Haley retains the channel-supported Season 1 championship state and
   the finale DQ in the same file.
 - 226 identities resolve to full public dossiers.
-- The dossier corpus contains 44,085 words; the smallest file is 179 words.
+- The dossier corpus contains 44,069 words; the smallest file is 179 words.
 - Every dossier exposes at least one exact name-call receipt; the 442 published
   receipts all reproduce the underlying timestamped transcript line.
 - Single-call official grid entrants retain their source file in the public
@@ -72,10 +72,10 @@ mismatches.
 - One repeated primary-chapter title was removed from an individual driver reel.
 - Exact duplicate boilerplate paragraphs were removed across the driver
   registry; each paragraph now remains anchored to its own subject.
-- 163 dossiers have source-attributed frames and 63 keep honest monograms.
-- All 163 public driver frames are unique by SHA-256, decode correctly, and are
+- 172 dossiers have source-attributed frames and 54 keep honest monograms.
+- All 172 public driver frames are unique by SHA-256, decode correctly, and are
   at least 1280×720.
-- The visual evidence ledger distinguishes 108 name/scoring-graphic matches,
+- The visual evidence ledger distinguishes 117 name/scoring-graphic matches,
   3 live-call matches, and 52 source-context frames.
 
 ## Highline Central
@@ -159,7 +159,7 @@ The Trust Audit Board exposes nine passing release gates:
 8. public language;
 9. the complete internal route graph.
 
-The public-language gate scans 4,391 authored fields / 109,319 words. It rejects
+The public-language gate scans 4,391 authored fields / 109,463 words. It rejects
 the original repeated Trevor white-flag headline template,
 research-state language, unresolved program values, malformed encoding,
 accidental repeated words, and duplicated authored blocks.
@@ -189,7 +189,7 @@ returns exact in-wiki race cuts instead of only caption snippets.
 - Tape-reviewed navigation chapters: 117.
 - Caption-aligned bounded navigation chapters: 209.
 - Accepted podium cells: 60/60.
-- Driver dossiers / unique source frames: 226 / 163.
+- Driver dossiers / unique source frames: 226 / 172.
 - Top 25 boards / publicly exposed playable receipts: 9 / 1,585.
 - Official races with 15–20 primary chapters: 20/20.
 - Primary result receipts synchronized to chapters: 13/13.
